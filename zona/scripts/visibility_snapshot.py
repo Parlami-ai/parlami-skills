@@ -79,6 +79,9 @@ def main():
     ap.add_argument("--grid-size", type=int, default=7)
     ap.add_argument("--radius", type=float, default=3.0)
     ap.add_argument("--search-radius-m", type=int, default=3000)
+    ap.add_argument("--provider", choices=["places", "curl"], default="places")
+    ap.add_argument("--delay", type=float, default=None,
+                    help="seconds between points (default 0.15 places / 2.0 curl)")
     ap.add_argument("--estimate", action="store_true")
     ap.add_argument("--confirm", action="store_true")
     ap.add_argument("--out-dir", default=str(Path(__file__).resolve().parent.parent / "runs"))
@@ -86,35 +89,44 @@ def main():
 
     school = gt.SCHOOLS[args.school]
     keywords = KEYWORDS[args.school]
+    delay = args.delay if args.delay is not None else (2.0 if args.provider == "curl" else 0.15)
     n_calls = len(keywords) * args.grid_size ** 2 + 1
-    est = n_calls * gt.PRICE_PER_CALL
+    est = 0.0 if args.provider == "curl" else n_calls * gt.PRICE_PER_CALL
 
-    print(f"School: {school['name']}")
+    print(f"School: {school['name']}  Provider: {args.provider}")
     print(f"Keywords ({len(keywords)}): " + "; ".join(keywords))
-    print(f"API calls: {n_calls}  Estimated list-price cost: ${est:.2f} "
-          f"(usually $0 — covered by Google's monthly free tier)")
+    if args.provider == "curl":
+        print("API calls: 0 (free no-key path)  Estimated cost: $0.00")
+    else:
+        print(f"API calls: {n_calls}  Estimated list-price cost: ${est:.2f} "
+              f"(usually $0 — covered by Google's monthly free tier)")
 
     if args.estimate:
         return
     if not args.confirm:
-        sys.exit("Live API calls need --confirm. Use --estimate to preview cost.")
+        sys.exit("Live runs need --confirm. Use --estimate to preview cost.")
 
-    key = gt.api_key()
-    cand = gt.resolve_place_id(school, key)
-    place_id = cand["place_id"]
-    print(f"Resolved place_id for {cand['name']}")
+    place_id = None
+    if args.provider == "places":
+        key = gt.api_key()
+        cand = gt.resolve_place_id(school, key)
+        place_id = cand["place_id"]
+        print(f"Resolved place_id for {cand['name']}")
 
     results = {}
     for kw in keywords:
         points = gt.generate_grid(school["lat"], school["lng"], args.radius, args.grid_size)
         print(f"Keyword: \"{kw}\"")
         for i, p in enumerate(points, 1):
-            rank, n, top3 = gt.rank_at_point(p, kw, place_id, school["name"],
-                                             key, args.search_radius_m)
+            if args.provider == "curl":
+                rank, n, top3 = gt.curl_rank_at_point(p, kw, school)
+            else:
+                rank, n, top3 = gt.rank_at_point(p, kw, place_id, school["name"],
+                                                 key, args.search_radius_m)
             p["rank"], p["results_returned"], p["top3"] = rank, n, top3
             if i % 10 == 0 or i == len(points):
                 print(f"  {i}/{len(points)} points done")
-            time.sleep(0.15)
+            time.sleep(delay)
         results[kw] = points
 
     out_dir = Path(args.out_dir)
@@ -123,6 +135,7 @@ def main():
     payload = {
         "school": school["name"],
         "school_key": args.school,
+        "provider": args.provider,
         "place_id": place_id,
         "grid_size": args.grid_size,
         "radius_miles": args.radius,

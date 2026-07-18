@@ -1,0 +1,117 @@
+{
+  "school": "amici",
+  "canonical": {
+    "name": "Amici Trilingual Montessori",
+    "aliases": [
+      "Amici Montessori"
+    ],
+    "address": "1244 E Chandler Blvd, Phoenix AZ 85048",
+    "phone": "+1-480-336-3364"
+  },
+  "directories": [
+    {
+      "directory": "google_business_profile",
+      "status": "consistent",
+      "core": true,
+      "extra": false,
+      "url": "https://www.google.com/maps/search/Amici+Trilingual+Montessori+Phoenix",
+      "checked": "2026-07-18",
+      "note": "claimed; owner post Mar 30 2026",
+      "partial": false,
+      "fields": {
+        "name": true,
+        "address": true,
+        "phone": true
+      }
+    },
+    {
+      "directory": "bing_places",
+      "status": "consistent",
+      "core": true,
+      "extra": false,
+      "url": "https://www.bing.com/maps?q=Amici+Trilingual+Montessori+Phoenix",
+      "checked": "2026-07-18",
+      "note": "claimed by owner",
+      "partial": false,
+      "fields": {
+        "name": true,
+        "address": true,
+        "phone": true
+      }
+    },
+    {
+      "directory": "apple_maps",
+      "status": "consistent",
+      "core": true,
+      "extra": false,
+      "url": "https://maps.apple.com/search?query=Amici%20Trilingual%20Montessori%20Phoenix",
+      "checked": "2026-07-18",
+      "note": null,
+      "partial": false,
+      "fields": {
+        "name": true,
+        "address": true,
+        "phone": true
+      }
+    },
+    {
+      "directory": "yelp",
+      "status": "consistent",
+      "core": false,
+      "extra": false,
+      "url": "https://www.yelp.com/biz/amici-trilingual-montessori-phoenix-2",
+      "checked": "2026-07-18",
+      "note": "old 'coming soon' duplicate Yelp page also exists",
+      "partial": false,
+      "fields": {
+        "name": true,
+        "address": true,
+        "phone": true
+      }
+    },
+    {
+      "directory": "facebook",
+      "status": "consistent",
+      "core": false,
+      "extra": false,
+      "url": "https://www.facebook.com/Amicimontessori/",
+      "checked": "2026-07-18",
+      "note": "page links amicimontessori.org (official site is .com)",
+      "partial": false,
+      "fields": {
+        "name": true,
+        "address": true,
+        "phone": true
+      }
+    },
+    {
+      "directory": "yellowpages",
+      "status": "missing",
+      "core": false,
+      "checked": "2026-07-18"
+    },
+    {
+      "directory": "nextdoor",
+      "status": "missing",
+      "core": false,
+      "checked": "2026-07-18"
+    }
+  ],
+  "inconsistencies": [],
+  "summary": {
+    "citations_count": 5,
+    "expected_count": 7,
+    "checked_count": 7,
+    "unchecked": [],
+    "consistent_count": 5,
+    "coverage_pct": 0.714,
+    "consistency_pct": 1.0,
+    "missing": [
+      "yellowpages",
+      "nextdoor"
+    ],
+    "missing_core": [],
+    "inconsistency_count": 0,
+    "segment": "yellow"
+  }
+}

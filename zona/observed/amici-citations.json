@@ -1,0 +1,53 @@
+{
+  "listings": {
+    "google_business_profile": {
+      "checked": "2026-07-18",
+      "name": "Amici Trilingual Montessori Preschool",
+      "address": "1244 E Chandler Blvd, Phoenix, AZ 85048",
+      "phone": "(480) 336-3364",
+      "url": "https://www.google.com/maps/search/Amici+Trilingual+Montessori+Phoenix",
+      "note": "claimed; owner post Mar 30 2026"
+    },
+    "bing_places": {
+      "checked": "2026-07-18",
+      "name": "Amici Trilingual Montessori Preschool",
+      "address": "1244 E Chandler Blvd, Phoenix, AZ 85048",
+      "phone": "(480) 336-3364",
+      "url": "https://www.bing.com/maps?q=Amici+Trilingual+Montessori+Phoenix",
+      "note": "claimed by owner"
+    },
+    "apple_maps": {
+      "checked": "2026-07-18",
+      "name": "Amici Trilingual Montessori",
+      "address": "1244 E Chandler Blvd, Phoenix, AZ 85048",
+      "phone": "+1 (480) 336-3364",
+      "url": "https://maps.apple.com/search?query=Amici%20Trilingual%20Montessori%20Phoenix"
+    },
+    "yelp": {
+      "checked": "2026-07-18",
+      "name": "Amici Trilingual Montessori Preschool and Daycare",
+      "address": "1244 E Chandler Blvd, Phoenix, AZ 85048",
+      "phone": "(480) 336-3364",
+      "url": "https://www.yelp.com/biz/amici-trilingual-montessori-phoenix-2",
+      "note": "old 'coming soon' duplicate Yelp page also exists"
+    },
+    "facebook": {
+      "checked": "2026-07-18",
+      "name": "Amici Trilingual Montessori",
+      "address": "1244 E Chandler Blvd, Phoenix, AZ, United States, 85048",
+      "phone": "(480) 336-3364",
+      "url": "https://www.facebook.com/Amicimontessori/",
+      "note": "page links amicimontessori.org (official site is .com)"
+    },
+    "yellowpages": {
+      "checked": "2026-07-18",
+      "absent": true,
+      "note": "no listing in YP search index"
+    },
+    "nextdoor": {
+      "checked": "2026-07-18",
+      "absent": true,
+      "note": "page URL 404s; zero search-index results"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "listings": {
+    "google_business_profile": {
+      "checked": "2026-07-18",
+      "name": "BeiBei Amigos Montessori Language Preschool",
+      "address": "751 E Union Hills Dr Ste 19, Phoenix, AZ 85024",
+      "phone": "(602) 996-4990",
+      "url": "https://www.google.com/maps/search/Beibei+Amigos+Language+Preschool+Phoenix",
+      "note": "claimed; owner post Mar 27 2026"
+    },
+    "bing_places": {
+      "checked": "2026-07-18",
+      "name": "BeiBei Amigos Montessori Language Preschool",
+      "address": "751 E Union Hills Dr Ste 19, Phoenix, AZ 85024",
+      "phone": "(602) 996-4990",
+      "url": "https://www.bing.com/maps?q=Beibei+Amigos+Language+Preschool+Phoenix",
+      "note": "claimed by owner"
+    },
+    "apple_maps": {
+      "checked": "2026-07-18",
+      "name": "Beibei Amigos Language Preschool",
+      "address": "751 E Union Hills Dr, Ste 19, Phoenix, AZ 85024",
+      "phone": "+1 (602) 996-4990",
+      "url": "https://maps.apple.com/place?place-id=I614DC8C8F7FAC49"
+    },
+    "yelp": {
+      "checked": "2026-07-18",
+      "name": "Beibei Amigos Language Preschool",
+      "address": "751 E Union Hills Dr, Ste 19, Phoenix, AZ 85024",
+      "phone": "(602) 996-4990",
+      "url": "https://www.yelp.com/biz/beibei-amigos-language-preschool-phoenix-5"
+    },
+    "facebook": {
+      "checked": "2026-07-18",
+      "name": "Beibei Amigos Language Immersion Preschool",
+      "address": "751 East Union Hills Drive Suite 19, Phoenix, AZ 85024",
+      "phone": "(602) 996-4990",
+      "url": "https://www.facebook.com/BeibeiAmigosLanguageMontessori/"
+    },
+    "facebook_duplicate": {
+      "checked": "2026-07-18",
+      "name": "BeiBei Amigos Language School",
+      "address": "",
+      "phone": "",
+      "url": "https://www.facebook.com/p/BeiBei-Amigos-Language-School-100064254240892/",
+      "partial": true,
+      "note": "SECOND Facebook page \u2014 duplicate; splits followers/reviews"
+    },
+    "yellowpages": {
+      "checked": "2026-07-18",
+      "name": "Beibei Amigos Language Preschool",
+      "address": "751 E Union Hills Dr, Phoenix, AZ 85024",
+      "phone": "(602) 996-4990",
+      "url": "https://www.yellowpages.com/phoenix-az/mip/beibei-amigos-language-preschool-531312409",
+      "partial": true,
+      "note": "read via search index; YP page itself bot-blocked"
+    },
+    "yellowpages_duplicate": {
+      "checked": "2026-07-18",
+      "name": "BeiBei Amigos Language Montessori School",
+      "address": "",
+      "phone": "",
+      "url": "https://www.yellowpages.com/phoenix-az/mip/beibei-amigos-language-montessori-school-484469074",
+      "partial": true,
+      "note": "SECOND YellowPages listing \u2014 duplicate under older name"
+    },
+    "nextdoor": {
+      "checked": "2026-07-18",
+      "name": "Beibei Amigos Language Preschool",
+      "address": "",
+      "phone": "+16029964990",
+      "url": "https://nextdoor.com/pages/beibei-amigos-language-preschool-phoenix-az/",
+      "note": "no street address shown publicly on the page"
+    }
+  }
+}

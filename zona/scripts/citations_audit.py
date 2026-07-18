@@ -91,6 +91,7 @@ def normalize_phone(value):
 
 def normalize_address(value):
     s = str(value or "").lower().replace("#", " ste ")
+    s = re.sub(r"\b(united states|usa)\b", " ", s)
     s = re.sub(r"[.,]", " ", s)
     s = re.sub(r"[^a-z0-9 ]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
@@ -124,23 +125,42 @@ def name_matches(candidate, target, aliases=()):
 
 
 def compare_nap(canonical, listing):
-    """Field-level match: {name, address, phone: bool, consistent, mismatches}."""
+    """Field-level match: {name, address, phone: bool, consistent, mismatches}.
+
+    A blank observed field normally counts as a mismatch (the directory is
+    missing that field). If the listing is marked "partial": true (the page
+    could only be partially read, e.g. bot-blocked), blank fields are skipped
+    instead of blamed — only what was actually observed gets compared.
+    """
+    partial = bool(listing.get("partial"))
     result = {"mismatches": []}
+
     result["name"] = name_matches(listing.get("name", ""), canonical["name"],
                                   canonical.get("aliases", ()))
     if not result["name"]:
         result["mismatches"].append({"field": "name", "canonical": canonical["name"],
                                      "observed": listing.get("name", "")})
-    result["address"] = (normalize_address(listing.get("address", ""))
-                         == normalize_address(canonical["address"]))
-    if not result["address"]:
-        result["mismatches"].append({"field": "address", "canonical": canonical["address"],
-                                     "observed": listing.get("address", "")})
-    result["phone"] = (normalize_phone(listing.get("phone", ""))
-                       == normalize_phone(canonical["phone"]))
-    if not result["phone"]:
-        result["mismatches"].append({"field": "phone", "canonical": canonical["phone"],
-                                     "observed": listing.get("phone", "")})
+
+    if partial and not listing.get("address"):
+        result["address"] = True
+    else:
+        result["address"] = (normalize_address(listing.get("address", ""))
+                             == normalize_address(canonical["address"]))
+        if not result["address"]:
+            result["mismatches"].append(
+                {"field": "address", "canonical": canonical["address"],
+                 "observed": listing.get("address", "")})
+
+    if partial and not listing.get("phone"):
+        result["phone"] = True
+    else:
+        result["phone"] = (normalize_phone(listing.get("phone", ""))
+                           == normalize_phone(canonical["phone"]))
+        if not result["phone"]:
+            result["mismatches"].append(
+                {"field": "phone", "canonical": canonical["phone"],
+                 "observed": listing.get("phone", "")})
+
     result["consistent"] = result["name"] and result["address"] and result["phone"]
     return result
 
@@ -195,7 +215,8 @@ def audit(school, observed):
             "directory": d,
             "status": "consistent" if cmp["consistent"] else "inconsistent",
             "core": core, "extra": extra, "url": listing.get("url"),
-            "checked": listing.get("checked"),
+            "checked": listing.get("checked"), "note": listing.get("note"),
+            "partial": bool(listing.get("partial")),
             "fields": {k: cmp[k] for k in ("name", "address", "phone")},
         })
 
@@ -263,15 +284,19 @@ def render_markdown(result):
         "|-----------|--------|-------|",
     ]
     for d in result["directories"]:
-        note = ""
+        parts = []
         if d["status"] == "inconsistent":
             bad = [k for k, v in d.get("fields", {}).items() if not v]
-            note = "differs: " + ", ".join(bad)
+            parts.append("differs: " + ", ".join(bad))
         elif d["status"] == "missing":
-            note = "no listing found" + (" — CORE directory" if d["core"] else "")
+            parts.append("no listing found" + (" — CORE directory" if d["core"] else ""))
         elif d["status"] == "consistent" and d.get("extra"):
-            note = "bonus directory (beyond expected set)"
-        lines.append(f"| {d['directory']} | {STATUS_MARK[d['status']]} | {note} |")
+            parts.append("bonus directory (beyond expected set)")
+        if d.get("partial"):
+            parts.append("partially readable page — only visible fields compared")
+        if d.get("note"):
+            parts.append(d["note"])
+        lines.append(f"| {d['directory']} | {STATUS_MARK[d['status']]} | {'; '.join(parts)} |")
     if result["inconsistencies"]:
         lines += ["", "## For Catena to fix (exact mismatches)"]
         for m in result["inconsistencies"]:
@@ -296,6 +321,10 @@ def main():
     ap.add_argument("--url")
     ap.add_argument("--absent", action="store_true",
                     help="with --record: directory checked, no listing exists")
+    ap.add_argument("--partial", action="store_true",
+                    help="with --record: page only partially readable; "
+                         "blank fields are skipped, not blamed")
+    ap.add_argument("--note", help="with --record: free-text note shown in report")
     args = ap.parse_args()
 
     if args.record:
@@ -305,6 +334,10 @@ def main():
         else:
             listing.update({"name": args.name or "", "address": args.address or "",
                             "phone": args.phone or "", "url": args.url or ""})
+            if args.partial:
+                listing["partial"] = True
+        if args.note:
+            listing["note"] = args.note
         record_listing(args.school, args.record, listing)
         print(f"recorded {args.record} for {args.school}"
               f" ({'ABSENT' if args.absent else listing.get('name')})")

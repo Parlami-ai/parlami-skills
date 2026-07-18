@@ -132,3 +132,71 @@ directly and is real).
 **Capsule tally: 3/5 fully done, capsules 1+2 built-but-blocked on Sean
 (~80%). STOP point reached** — per the loop rules, synthesis (findings
 report + Bussola correlation) waits for Sean's evidence review.
+
+---
+
+## 2026-07-18 — Capsule 1 goes LIVE (Sean said "keep building")
+
+**What I did:** The Google-key fix (Decision Card #3) is still pending, so I
+added a second, free way for the tracker to ask Google: it fetches the public
+Google Maps results page for each grid point — the same technique the
+February–March scans used successfully — updated for how Google's pages look
+today. No key, no cost, nothing written anywhere. The paid-API path stays in
+place as the preferred option once the key is fixed (it's steadier; the free
+path can wobble when Google changes its page markup).
+
+**Real results for "preschool near me" (saved in `runs/`, 2026-07-18):**
+
+- **Beibei:** rank 6 at its own front door; in the map-pack top 3 at 16 of 49
+  points; visible almost everywhere (only 2 blind spots). Notably STRONG in a
+  band just west of the school (rank 1) and weaker to the north-east.
+- **Amici:** visible at only 14 of 49 points and — the headline —
+  **completely absent from the top 20 at its own front door.** I double-checked
+  by hand: for "montessori preschool" at the same spot it appears at #13 (its
+  listing is called "Amici Trilingual Montessori Preschool"). So the listing
+  exists and works, but Google doesn't connect it to the word "preschool"
+  searches — very likely a Google Business Profile category problem. That's
+  Stella's lane (GBP), so it's recorded here as evidence only.
+
+**Does it work?** Yes — verified live at both schools, spot-checked by hand.
+
+## 2026-07-18 (later) — Capsule 4: Citations / NAP audit — BUILT + RUN LIVE (Card #1 approved)
+
+Sean approved Decision Card #1 ("Zona audits, Catena fixes"), so the citations
+audit is now built and has been run for real against both schools.
+
+**What it does, in plain words:** every website that lists a business (Google,
+Bing, Apple Maps, Yelp, Facebook, Yellow Pages, Nextdoor) shows a Name, Address
+and Phone. Google trusts a school more when all of them match exactly. The new
+tool (`scripts/citations_audit.py`) records what each directory really shows
+and compares it against the school's official details, forgiving cosmetic
+differences ("Drive" vs "Dr") but catching real ones. It is read-only: fixing
+anything is Catena's job, and the reports are addressed to Catena's queue.
+
+**How the data was gathered:** by actually reading the public directory pages
+(free local browser + web search — zero API cost). Pages that block robots
+(Yellow Pages) are marked "partially readable" so unread fields are never
+blamed unfairly.
+
+**Real results (runs/2026-07-18-*-citations.md):**
+- **Beibei: 🔴** Listed everywhere (good) but only 3 of 9 listings match the
+  official record. The big story: Google, Bing, Apple, Yelp, Facebook and the
+  directories all say "**Ste 19**" while the school's own website address has
+  no suite number — so the likely right fix is adding "Ste 19" to the website,
+  not editing 5 listings. Also found: **duplicate Facebook page** ("BeiBei
+  Amigos Language School") and **duplicate YellowPages listing** (older name),
+  which split reviews and confuse Google; the Google/Bing listing name has
+  drifted to "BeiBei Amigos **Montessori** Language Preschool"; and Nextdoor
+  shows no street address publicly.
+- **Amici: 🟡** Every existing listing matches perfectly (name, address,
+  phone) — but the school is **missing from Yellow Pages and Nextdoor**, and
+  its Facebook page links to amicimontessori.**org** instead of .com. An old
+  "coming soon" duplicate Yelp page also lingers.
+
+**Tested:** offline test suite (9 scenarios) passes; live run produced dated
+JSON + readable reports for both schools.
+
+**For Catena (once ported to its lane):** the "For Catena to fix" sections in
+both reports are the work orders. The Beibei suite-number question (add Ste 19
+to the website vs strip it from listings) needs Sean's call because it touches
+the website's official record.
