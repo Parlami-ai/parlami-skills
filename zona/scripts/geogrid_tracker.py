@@ -11,15 +11,24 @@ Metered: every live run requires --confirm and prints the cost estimate first.
 The API key is read from the environment at runtime (GOOGLE_PLACES_API_KEY,
 falling back to GOOGLE_API_KEY) and is never written to any output file.
 
+Two providers:
+  --provider places  Google Places API (preferred; needs Decision Card #3 cleared)
+  --provider curl    free Google Maps fetch, no key — modernized port of the
+                     proven Feb-Mar scanner (2 plain GETs per grid point,
+                     2s delay). Listing names/order can shift with Google's
+                     markup; treat as a stopgap until Places is unblocked.
+
 Usage:
   python3 geogrid_tracker.py --school beibei --keyword "preschool near me" --estimate
   python3 geogrid_tracker.py --school beibei --test-call --confirm
-  python3 geogrid_tracker.py --school beibei --keyword "preschool near me" --confirm
+  python3 geogrid_tracker.py --school beibei --provider curl --confirm
 """
 
 import argparse
+import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -29,15 +38,20 @@ from pathlib import Path
 
 # Public business info (not secrets) — same values as the legacy
 # ~/clawd/agents/zona/geogrid.py SCHOOLS dict, confirmed in capsule 0.
+# aliases: lowercase substrings that identify the school in Maps listings,
+# which use different display names (e.g. "BeiBei Amigos Montessori Language
+# Preschool" — observed live 2026-07-18).
 SCHOOLS = {
     "amici": {
         "name": "Amici Trilingual Montessori",
+        "aliases": ["amici"],
         "lat": 33.3062,
         "lng": -111.9822,
         "address": "1244 E Chandler Blvd, Phoenix AZ 85048",
     },
     "beibei": {
         "name": "Beibei Amigos Language Preschool",
+        "aliases": ["beibei amigos"],
         "lat": 33.6617,
         "lng": -112.0694,
         "address": "751 E Union Hills Dr, Phoenix AZ 85024",
@@ -88,6 +102,50 @@ def generate_grid(center_lat, center_lng, radius_miles, grid_size):
                 "lng": round(center_lng + fc * lng_off, 6),
             })
     return points
+
+
+UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/120.0.0.0 Safari/537.36")
+
+
+def http_get(url):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
+def curl_ranked_names(lat, lng, keyword):
+    """Free no-key path: fetch the Maps search shell for this coordinate, then
+    the data endpoint it references, and pull the ranked business list out of
+    the payload. Names are anchored on Google's CID pairs ("0x...:0x...","Name")
+    — the payload shape observed live 2026-07-18."""
+    shell = http_get(
+        f"https://www.google.com/maps/search/{urllib.parse.quote(keyword)}"
+        f"/@{lat},{lng},14z")
+    m = re.search(r'<link href="(/search\?tbm=map[^"]+)"', shell)
+    if not m:
+        raise RuntimeError("Maps shell page had no tbm=map data link "
+                           "(Google markup changed or request blocked)")
+    body = http_get("https://www.google.com" + html.unescape(m.group(1)))
+    names, seen = [], set()
+    for match in re.finditer(r'"0x[0-9a-f]+:0x[0-9a-f]+","((?:[^"\\]|\\.){3,80})"', body):
+        n = match.group(1).encode().decode("unicode_escape", errors="replace")
+        if n not in seen:
+            seen.add(n)
+            names.append(n)
+    return names[:RESULT_LIMIT]
+
+
+def curl_rank_at_point(point, keyword, school):
+    names = curl_ranked_names(point["lat"], point["lng"], keyword)
+    rank = None
+    for i, n in enumerate(names, 1):
+        low = n.lower()
+        if any(a in low for a in school["aliases"]):
+            rank = i
+            break
+    return rank, len(names), names[:3]
 
 
 def resolve_place_id(school, key):
@@ -194,6 +252,11 @@ def main():
     ap.add_argument("--radius", type=float, default=3.0, help="grid radius in miles")
     ap.add_argument("--search-radius-m", type=int, default=3000,
                     help="Nearby Search radius in meters at each point")
+    ap.add_argument("--provider", choices=["places", "curl"], default="places",
+                    help="places = Places API (needs working key); "
+                         "curl = free no-key Maps fetch (stopgap)")
+    ap.add_argument("--delay", type=float, default=None,
+                    help="seconds between grid points (default 0.15 places / 2.0 curl)")
     ap.add_argument("--estimate", action="store_true", help="print cost estimate and exit")
     ap.add_argument("--test-call", action="store_true",
                     help="make ONE Find Place call to verify the key works, then exit")
@@ -203,40 +266,53 @@ def main():
     args = ap.parse_args()
 
     school = SCHOOLS[args.school]
+    delay = args.delay if args.delay is not None else (2.0 if args.provider == "curl" else 0.15)
     n_calls = args.grid_size ** 2 + 1  # +1 Find Place
-    est = n_calls * PRICE_PER_CALL
+    est = 0.0 if args.provider == "curl" else n_calls * PRICE_PER_CALL
 
-    print(f"School: {school['name']}")
+    print(f"School: {school['name']}  Provider: {args.provider}")
     print(f"Keyword: \"{args.keyword}\"  Grid: {args.grid_size}x{args.grid_size}  Radius: {args.radius} mi")
-    print(f"API calls: {n_calls}  Estimated list-price cost: ${est:.2f} "
-          f"(usually $0 — covered by Google's monthly free tier)")
+    if args.provider == "curl":
+        print(f"API calls: 0 (free no-key path)  Estimated cost: $0.00")
+    else:
+        print(f"API calls: {n_calls}  Estimated list-price cost: ${est:.2f} "
+              f"(usually $0 — covered by Google's monthly free tier)")
 
     if args.estimate:
         return
     if not args.confirm:
-        sys.exit("Live API calls need --confirm. Use --estimate to preview cost.")
+        sys.exit("Live runs need --confirm. Use --estimate to preview cost.")
 
-    key = api_key()
-
-    if args.test_call:
+    place_id = None
+    if args.provider == "places":
+        key = api_key()
+        if args.test_call:
+            cand = resolve_place_id(school, key)
+            print(f"TEST CALL OK — found: {cand['name']} @ {cand['formatted_address']}")
+            print(f"place_id: {cand['place_id']}")
+            return
         cand = resolve_place_id(school, key)
-        print(f"TEST CALL OK — found: {cand['name']} @ {cand['formatted_address']}")
-        print(f"place_id: {cand['place_id']}")
+        place_id = cand["place_id"]
+        print(f"Resolved place_id for {cand['name']}")
+    elif args.test_call:
+        rank, n, top3 = curl_rank_at_point(
+            {"lat": school["lat"], "lng": school["lng"]}, args.keyword, school)
+        print(f"TEST CALL OK — {n} listings at school center; "
+              f"school rank {rank_label(rank)}; top3: {top3}")
         return
-
-    cand = resolve_place_id(school, key)
-    place_id = cand["place_id"]
-    print(f"Resolved place_id for {cand['name']}")
 
     points = generate_grid(school["lat"], school["lng"], args.radius, args.grid_size)
     for i, p in enumerate(points, 1):
-        rank, n_results, top3 = rank_at_point(
-            p, args.keyword, place_id, school["name"], key, args.search_radius_m)
+        if args.provider == "curl":
+            rank, n_results, top3 = curl_rank_at_point(p, args.keyword, school)
+        else:
+            rank, n_results, top3 = rank_at_point(
+                p, args.keyword, place_id, school["name"], key, args.search_radius_m)
         p["rank"] = rank
         p["results_returned"] = n_results
         p["top3"] = top3
         print(f"  point {i}/{len(points)} ({p['row']},{p['col']}): rank {rank_label(rank)}")
-        time.sleep(0.15)
+        time.sleep(delay)
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -247,6 +323,7 @@ def main():
     payload = {
         "school": school["name"],
         "school_key": args.school,
+        "provider": args.provider,
         "place_id": place_id,
         "keyword": args.keyword,
         "grid_size": args.grid_size,
