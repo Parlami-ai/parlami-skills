@@ -252,3 +252,22 @@ schools (100%).** Capsules 1+2 now have a working free data path today, with
 the paid Places API still the preferred path once Card #3's one console click
 is done. **STOP point holds** — synthesis (findings report + Bussola
 correlation) still waits on Sean's evidence review per the loop spec.
+
+## 2026-07-18 (session close) — honest status correction
+
+Two things got cleaned up before closing out:
+
+1. **Capsules 1+2 are "done with an open decision," not a clean checkmark.**
+   They ran on a *free Google-Maps scrape*, not the Places API the task asked
+   for (which is still blocked — Card #3). That method swap is now written up
+   as **Decision Card #4** for Sean: keep the free data as-is, or re-run on the
+   official Places API once Card #3 is cleared. Nothing to undo either way.
+2. **The "Amici is invisible" headline was overstated.** The real figures:
+   Amici is #1 everywhere for "trilingual preschool" (49/49 map points) but for
+   the generic "preschool near me" it's in the top-3 map pack at 0/49 points —
+   though still *visible* in the top 20 at 14/49, best rank 5. What that means
+   and who fixes it is Sean's synthesis call, so no cause is asserted here.
+
+Also flagged in HANDOFF: two automated loops committed to this one branch today
+and swept each other's files into mislabeled commits (no work lost). Best not to
+run both on the same branch at once.

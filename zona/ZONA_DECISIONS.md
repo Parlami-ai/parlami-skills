@@ -88,3 +88,36 @@ Sean's Google login — the agent re-tested both keys 2026-07-18 (still blocked,
 same two errors) and has no browser session into Sean's Google Cloud Console.
 **This is the one remaining human step.** Once done, the recipe at the bottom
 of HANDOFF.md runs capsules 1+2 live.
+
+---
+
+## Decision Card #4 — Capsules 1+2 ran on a free Google-Maps scrape, not the Places API you specified
+
+**What this is about:** The build task said the rank tracker should use the
+**Google Places API** ("no paid SERP APIs; if needed → decision card"). When
+both Google keys came back blocked (that's Card #3), a parallel build loop
+brought back an older, **free** method instead: it fetches Google Maps search
+pages directly and reads the ranked business list out of the page
+(`--provider curl`). Capsules 1 and 2 were then run on that free method for
+both schools, and the results are saved in `runs/`.
+
+**The question:** Is that free-scrape data good enough to count capsules 1+2 as
+"done," or do you want them re-run on the official Places API once Card #3 is
+cleared?
+
+**Trade-offs, plainly:**
+- **Free scrape (what we have now):** costs $0, works today, gives a clear
+  picture. But the numbers wobble a little run-to-run (a rank might read 6 one
+  time and 8 the next at the edges of the map), and reading Google Maps pages
+  this way is against Google's terms of service — low-risk at this tiny volume,
+  but worth you knowing.
+- **Places API (the specified path):** steadier, repeatable numbers and fully
+  above-board, but needs the one Google console click from Card #3 first.
+
+**Recommendation:** Treat the current scraped runs as a **preview** — good
+enough to see the lay of the land and start your evidence review — and re-run
+capsules 1+2 on the Places API once Card #3 is cleared, so the numbers we act
+on and hand to other agents are the steady, terms-clean ones.
+
+**Status:** WAITING ON SEAN. Nothing to undo either way — the free-run reports
+stay in `runs/`; clearing Card #3 just lets us regenerate them on the paid path.
