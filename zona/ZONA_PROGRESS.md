@@ -200,3 +200,14 @@ JSON + readable reports for both schools.
 both reports are the work orders. The Beibei suite-number question (add Ste 19
 to the website vs strip it from listings) needs Sean's call because it touches
 the website's official record.
+
+## 2026-07-18 (later) — Card #2: SKILL.md rewritten to match the real lane
+
+Sean approved Card #2. Zona's instruction file (`SKILL.md`) used to describe a
+different, riskier job: publishing pages to the schools' websites using write
+passwords. If a future session had read it literally, it could have started
+editing the live websites — crossing Architetto's lane. The file now says
+clearly: Zona is READ-ONLY, here are the four audit tools and where their
+evidence goes, and page-building is locked behind a "future phase, do not
+execute" gate. The website passwords were removed from its requirements list.
+The old version stays safe in git history if it's ever needed.

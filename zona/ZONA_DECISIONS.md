@@ -23,8 +23,10 @@ porting.
 **Recommendation:** Zona audits (read-only evidence), Catena builds/fixes.
 That matches how Zona hands evidence to Architetto for page fixes.
 
-**Status:** WAITING ON SEAN. Per the build rules, nothing citation-related
-gets built until this is decided.
+**Status:** ✅ APPROVED by Sean 2026-07-18 ("keep building each card in
+order"). Built same day: `scripts/citations_audit.py`, run live for both
+schools → `runs/2026-07-18-*-citations.md`. Zona audits; fixes route to
+Catena.
 
 ---
 
@@ -47,7 +49,11 @@ using write credentials this build was told never to touch.
 **Recommendation:** Rewrite SKILL.md to make read-only audit/tracking the
 active mission and demote page-building to a "future, gated" section.
 
-**Status:** WAITING ON SEAN. SKILL.md is untouched in the meantime.
+**Status:** ✅ APPROVED by Sean 2026-07-18 ("keep building each card in
+order"). SKILL.md rewritten same day: read-only audit/tracking is the active
+mission; page-builder demoted to a gated "future phase" section; WP write
+credentials removed from required_secrets. Old version preserved in git
+history.
 
 ---
 
@@ -77,5 +83,8 @@ still shows its estimate and requires a --confirm flag.
 **Recommendation:** Option 1 (enable billing on the dedicated Places key's
 project) — it keeps Places usage on its own key.
 
-**Status:** WAITING ON SEAN. Until then, live rank scans can't run; everything
-is built and tested so the first real scan is a single command once fixed.
+**Status:** APPROVED in principle 2026-07-18, but the click itself needs
+Sean's Google login — the agent re-tested both keys 2026-07-18 (still blocked,
+same two errors) and has no browser session into Sean's Google Cloud Console.
+**This is the one remaining human step.** Once done, the recipe at the bottom
+of HANDOFF.md runs capsules 1+2 live.
