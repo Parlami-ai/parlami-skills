@@ -23,3 +23,14 @@ Thumbs.db
 reports/
 *.log
 .gstack/
+
+# Zona — real client data & run outputs stay LOCAL (client-agnostic SaaS repo).
+# Only the example config template is committed.
+zona/clients/*.config.yml
+!zona/clients/example.config.yml
+zona/runs/
+zona/observed/
+# Zona loop working-state (client-specific notes; kept local for continuity)
+zona/HANDOFF.md
+zona/ZONA_PROGRESS.md
+zona/ZONA_DECISIONS.md

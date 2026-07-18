@@ -9,8 +9,8 @@ Reuses geogrid_tracker.py for grid math and Places API calls. Same guardrails:
 read-only, key from environment only, --confirm required for live calls.
 
 Usage:
-  python3 visibility_snapshot.py --school beibei --estimate
-  python3 visibility_snapshot.py --school beibei --confirm
+  python3 visibility_snapshot.py --school sunshine --estimate
+  python3 visibility_snapshot.py --school sunshine --confirm
 """
 
 import argparse
@@ -20,24 +20,12 @@ import time
 from datetime import date, datetime
 from pathlib import Path
 
+import client_config
 import geogrid_tracker as gt
 
-# Fixed keyword set per school (loop spec). [area] filled per school locale:
-# Beibei sits in North Phoenix, Amici in Ahwatukee (1244 E Chandler Blvd 85048).
-KEYWORDS = {
-    "beibei": [
-        "preschool near me",
-        "Montessori preschool North Phoenix",
-        "bilingual preschool North Phoenix",
-        "trilingual preschool",
-    ],
-    "amici": [
-        "preschool near me",
-        "Montessori preschool Ahwatukee",
-        "bilingual preschool Ahwatukee",
-        "trilingual preschool",
-    ],
-}
+# The fixed keyword set is per-client and lives in that client's config
+# (zona/clients/<slug>.config.yml → school.keywords), not hard-coded here.
+DEFAULT_KEYWORDS = ["preschool near me"]
 
 
 def snapshot_findings(school, results, grid_size):
@@ -75,7 +63,9 @@ def snapshot_findings(school, results, grid_size):
 
 def main():
     ap = argparse.ArgumentParser(description="Zona visibility snapshot (read-only)")
-    ap.add_argument("--school", choices=sorted(gt.SCHOOLS), required=True)
+    ap.add_argument("--school", choices=client_config.available_schools() or None,
+                    required=True, metavar="SLUG",
+                    help="client slug — zona/clients/<slug>.config.yml")
     ap.add_argument("--grid-size", type=int, default=7)
     ap.add_argument("--radius", type=float, default=3.0)
     ap.add_argument("--search-radius-m", type=int, default=3000)
@@ -87,8 +77,8 @@ def main():
     ap.add_argument("--out-dir", default=str(Path(__file__).resolve().parent.parent / "runs"))
     args = ap.parse_args()
 
-    school = gt.SCHOOLS[args.school]
-    keywords = KEYWORDS[args.school]
+    school = client_config.load_school(args.school)
+    keywords = school.get("keywords") or DEFAULT_KEYWORDS
     delay = args.delay if args.delay is not None else (2.0 if args.provider == "curl" else 0.15)
     n_calls = len(keywords) * args.grid_size ** 2 + 1
     est = 0.0 if args.provider == "curl" else n_calls * gt.PRICE_PER_CALL

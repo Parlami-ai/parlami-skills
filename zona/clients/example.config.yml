@@ -1,0 +1,45 @@
+# ============================================================
+# Zona — School Audit Config Template
+# ============================================================
+# Copy this file to  clients/<slug>.config.yml  (e.g. clients/sunshine.config.yml)
+# and fill in the real values. Real configs are gitignored — they never get
+# committed to this SaaS repo. Run a tool with:  --school <slug>
+#
+# All values below are PUBLIC business info (name / address / phone / website).
+# Do NOT put API keys here — those come from environment variables at runtime.
+# ============================================================
+
+school:
+  # ── Identity ────────────────────────────────────────────
+  name: "{{SCHOOL_NAME}}"                 # exact business name, e.g. "Sunshine Bilingual Academy"
+  aliases:                                # other names it appears under on Maps/directories
+    - "{{SCHOOL_SHORT_NAME}}"
+  address: "{{SCHOOL_ADDRESS}}"           # full street address, one line
+  phone: "{{SCHOOL_PHONE}}"               # canonical phone, e.g. "+1-602-555-0100"
+
+  # ── Geo (for the map rank grid) ─────────────────────────
+  lat: 0.0                                # school latitude  (decimal degrees)
+  lng: 0.0                                # school longitude (decimal degrees)
+
+  # ── Website (for the location-page relevance check) ─────
+  website: "https://{{SCHOOL_DOMAIN}}"
+  sitemap: "https://{{SCHOOL_DOMAIN}}/page-sitemap.xml"
+  address_fragments:                      # short strings that prove the address is on a page
+    - "{{STREET_NUMBER_AND_NAME}}"
+  phone_fragments:                        # phone in the formats it may appear on pages
+    - "{{PHONE_DASHED}}"
+    - "{{PHONE_DIGITS}}"
+
+  # ── Local signals the page check looks for ──────────────
+  areas:                                  # neighborhoods + target zips (lowercase)
+    - "{{NEIGHBORHOOD}}"
+    - "{{TARGET_ZIP}}"
+  services:                               # service keywords (lowercase)
+    - "preschool"
+    - "{{PROGRAM_KEYWORD}}"
+
+  # ── Keywords for the visibility snapshot (grid search) ──
+  keywords:
+    - "preschool near me"
+    - "{{PROGRAM}} preschool {{AREA}}"
+    - "{{PROGRAM2}} preschool {{AREA}}"

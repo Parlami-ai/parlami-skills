@@ -23,12 +23,12 @@ Catena's lane. Output is dated evidence in runs/ addressed to Catena's queue.
 
 Usage:
   # record what a directory's public page shows (listing found):
-  python3 citations_audit.py --school beibei --record yelp \
+  python3 citations_audit.py --school sunshine --record yelp \
       --name "..." --address "..." --phone "..." --url "..."
   # record that a directory was checked and has NO listing:
-  python3 citations_audit.py --school beibei --record nextdoor --absent
+  python3 citations_audit.py --school sunshine --record nextdoor --absent
   # run the audit over everything recorded:
-  python3 citations_audit.py --school beibei
+  python3 citations_audit.py --school sunshine
 """
 
 import argparse
@@ -37,26 +37,15 @@ import re
 from datetime import date, datetime
 from pathlib import Path
 
+import client_config
+
 ZONA_DIR = Path(__file__).resolve().parent.parent
 OBSERVED_DIR = ZONA_DIR / "observed"
 RUNS_DIR = ZONA_DIR / "runs"
 
-# Canonical NAP — source of truth (matches each school's own site/schema markup;
-# same values as the engine's clients/*.yaml). Public info, safe to hard-code.
-SCHOOLS = {
-    "beibei": {
-        "name": "Beibei Amigos Language Preschool",
-        "aliases": ["Beibei Amigos"],
-        "address": "751 E Union Hills Dr, Phoenix AZ 85024",
-        "phone": "+1-602-996-4990",
-    },
-    "amici": {
-        "name": "Amici Trilingual Montessori",
-        "aliases": ["Amici Montessori"],
-        "address": "1244 E Chandler Blvd, Phoenix AZ 85048",
-        "phone": "+1-480-336-3364",
-    },
-}
+# Canonical NAP (name/aliases/address/phone) is the source of truth for the
+# comparison. It is NOT hard-coded here — this SaaS repo stays client-agnostic.
+# It's loaded per run from the gitignored `zona/clients/<slug>.config.yml`.
 
 # Directories that matter for a US local business, most important first.
 # The core three feed Google / Siri-Apple / Bing-Alexa ecosystems.
@@ -188,8 +177,9 @@ def record_listing(school, directory, listing):
 # --------------------------------------------------------------------- audit
 
 
-def audit(school, observed):
-    canonical = SCHOOLS[school]
+def audit(canonical, observed, slug=None):
+    """Audit observed listings against a canonical NAP dict (name/aliases/
+    address/phone). `slug` is only used to label the result."""
     directories, inconsistencies, missing = [], [], []
     consistent = 0
     checked = {d: l for d, l in observed.items()}
@@ -242,7 +232,7 @@ def audit(school, observed):
         summary["segment"] = "yellow"
     else:
         summary["segment"] = "green"
-    return {"school": school, "canonical": canonical, "directories": directories,
+    return {"school": slug, "canonical": canonical, "directories": directories,
             "inconsistencies": inconsistencies, "summary": summary}
 
 # ------------------------------------------------------------------- reports
@@ -312,7 +302,9 @@ def render_markdown(result):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--school", required=True, choices=sorted(SCHOOLS))
+    ap.add_argument("--school", required=True, metavar="SLUG",
+                    choices=client_config.available_schools() or None,
+                    help="client slug — zona/clients/<slug>.config.yml")
     ap.add_argument("--record", metavar="DIRECTORY",
                     help="record an observed listing instead of auditing")
     ap.add_argument("--name")
@@ -347,7 +339,8 @@ def main():
     if not observed:
         raise SystemExit(f"No observed listings recorded yet for {args.school} "
                          f"— use --record first (see --help).")
-    result = audit(args.school, observed)
+    canonical = client_config.load_school(args.school)
+    result = audit(canonical, observed, slug=args.school)
     RUNS_DIR.mkdir(exist_ok=True)
     stem = f"{date.today().isoformat()}-{args.school}-citations"
     (RUNS_DIR / f"{stem}.json").write_text(json.dumps(result, indent=2) + "\n")

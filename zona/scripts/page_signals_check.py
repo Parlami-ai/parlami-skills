@@ -15,8 +15,8 @@ writes anywhere. No API key needed. Findings are saved as EVIDENCE for
 Architetto's queue — Zona never edits pages itself.
 
 Usage:
-  python3 page_signals_check.py --school beibei
-  python3 page_signals_check.py --school amici --max-pages 40
+  python3 page_signals_check.py --school sunshine
+  python3 page_signals_check.py --school sunshine --max-pages 40
 """
 
 import argparse
@@ -29,32 +29,10 @@ from pathlib import Path
 
 USER_AGENT = "Mozilla/5.0 (compatible; ZonaLocalSEOAudit/1.0; read-only)"
 
-SITES = {
-    "beibei": {
-        "name": "Beibei Amigos Language Preschool",
-        "base": "https://www.beibeiamigos.com",
-        "sitemap": "https://www.beibeiamigos.com/page-sitemap.xml",
-        "address_fragments": ["751 E", "Union Hills"],
-        "phone_fragments": ["602-996-4990", "6029964990", "(602) 996-4990"],
-        "areas": ["north phoenix", "moon valley", "sunnyslope", "north mountain",
-                  "north glendale", "north central", "desert ridge", "deer valley",
-                  "paradise valley", "85024", "85050", "85054", "85085", "85254", "85331"],
-        "services": ["preschool", "bilingual", "mandarin", "spanish", "immersion",
-                     "language", "daycare", "montessori"],
-    },
-    "amici": {
-        "name": "Amici Trilingual Montessori",
-        "base": "https://amicimontessori.com",
-        "sitemap": "https://amicimontessori.com/page-sitemap.xml",
-        "address_fragments": ["1244 E", "Chandler Blvd"],
-        "phone_fragments": [],  # filled from page discovery; absence flagged per page
-        "areas": ["ahwatukee", "chandler", "south tempe", "tempe", "ocotillo",
-                  "estrella", "laveen", "west chandler", "foothills", "85048",
-                  "85044", "85045", "85226", "85286"],
-        "services": ["preschool", "trilingual", "montessori", "mandarin",
-                     "spanish", "immersion", "language", "daycare"],
-    },
-}
+# Per-school signals (website, sitemap, address/phone fragments, areas,
+# services) are loaded at runtime from the gitignored client config
+# `zona/clients/<slug>.config.yml` — this SaaS repo hard-codes no client data.
+import client_config
 
 SCHEMA_TYPES = ["LocalBusiness", "Preschool", "ChildCare", "School",
                 "EducationalOrganization"]
@@ -180,13 +158,15 @@ def findings_md(site, pages, errors):
 
 def main():
     ap = argparse.ArgumentParser(description="Zona page-signals check (read-only)")
-    ap.add_argument("--school", choices=sorted(SITES), required=True)
+    ap.add_argument("--school", choices=client_config.available_schools() or None,
+                    required=True, metavar="SLUG",
+                    help="client slug — zona/clients/<slug>.config.yml")
     ap.add_argument("--max-pages", type=int, default=0, help="0 = all pages")
     ap.add_argument("--delay", type=float, default=0.5)
     ap.add_argument("--out-dir", default=str(Path(__file__).resolve().parent.parent / "runs"))
     args = ap.parse_args()
 
-    site = SITES[args.school]
+    site = client_config.load_school(args.school)
     urls = sitemap_urls(site["sitemap"])
     if args.max_pages:
         urls = urls[:args.max_pages]

@@ -19,9 +19,9 @@ Two providers:
                      markup; treat as a stopgap until Places is unblocked.
 
 Usage:
-  python3 geogrid_tracker.py --school beibei --keyword "preschool near me" --estimate
-  python3 geogrid_tracker.py --school beibei --test-call --confirm
-  python3 geogrid_tracker.py --school beibei --provider curl --confirm
+  python3 geogrid_tracker.py --school sunshine --keyword "preschool near me" --estimate
+  python3 geogrid_tracker.py --school sunshine --test-call --confirm
+  python3 geogrid_tracker.py --school sunshine --provider curl --confirm
 """
 
 import argparse
@@ -36,29 +36,15 @@ import urllib.request
 from datetime import date, datetime
 from pathlib import Path
 
-# Public business info (not secrets) — same values as the legacy
-# ~/clawd/agents/zona/geogrid.py SCHOOLS dict, confirmed in capsule 0.
-# aliases: lowercase substrings that identify the school in Maps listings,
-# which use different display names (e.g. "BeiBei Amigos Montessori Language
-# Preschool" — observed live 2026-07-18).
-SCHOOLS = {
-    "amici": {
-        "name": "Amici Trilingual Montessori",
-        "aliases": ["amici"],
-        "lat": 33.3062,
-        "lng": -111.9822,
-        "address": "1244 E Chandler Blvd, Phoenix AZ 85048",
-    },
-    "beibei": {
-        "name": "Beibei Amigos Language Preschool",
-        "aliases": ["beibei amigos"],
-        "lat": 33.6617,
-        "lng": -112.0694,
-        "address": "751 E Union Hills Dr, Phoenix AZ 85024",
-    },
-}
+# School data is NOT hard-coded here — this is a client-agnostic SaaS repo.
+# Each school's public business info (name/address/phone/lat/lng/aliases) is
+# loaded at runtime from a gitignored config, `zona/clients/<slug>.config.yml`
+# (template: zona/clients/example.config.yml). See client_config.py.
+import client_config
 
-# At Phoenix latitude (~33.5°N)
+# Miles-per-degree at the configured latitude band. These are set for the
+# ~33.5°N Phoenix band; if you onboard schools far from that latitude, the
+# longitude figure drifts — recompute MILES_PER_DEG_LNG = 69.17 * cos(lat).
 MILES_PER_DEG_LAT = 69.0
 MILES_PER_DEG_LNG = 54.6
 
@@ -246,7 +232,9 @@ def findings_text(school, keyword, points, grid_size):
 
 def main():
     ap = argparse.ArgumentParser(description="Zona geo-grid rank tracker (read-only)")
-    ap.add_argument("--school", choices=sorted(SCHOOLS), required=True)
+    ap.add_argument("--school", choices=client_config.available_schools() or None,
+                    required=True, metavar="SLUG",
+                    help="client slug — zona/clients/<slug>.config.yml")
     ap.add_argument("--keyword", default="preschool near me")
     ap.add_argument("--grid-size", type=int, default=7)
     ap.add_argument("--radius", type=float, default=3.0, help="grid radius in miles")
@@ -265,7 +253,7 @@ def main():
     ap.add_argument("--out-dir", default=str(Path(__file__).resolve().parent.parent / "runs"))
     args = ap.parse_args()
 
-    school = SCHOOLS[args.school]
+    school = client_config.load_school(args.school)
     delay = args.delay if args.delay is not None else (2.0 if args.provider == "curl" else 0.15)
     n_calls = args.grid_size ** 2 + 1  # +1 Find Place
     est = 0.0 if args.provider == "curl" else n_calls * PRICE_PER_CALL

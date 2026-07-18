@@ -5,12 +5,19 @@ catches real mismatches, and the audit scores/segments correctly."""
 
 import citations_audit as ca
 
-canonical = ca.SCHOOLS["beibei"]
+# Synthetic canonical — no real client data. The repo is client-agnostic; real
+# school configs live in gitignored zona/clients/<slug>.config.yml.
+canonical = {
+    "name": "Test Academy Preschool",
+    "aliases": ["Test Academy"],
+    "address": "100 E Test Dr, Phoenix AZ 85000",
+    "phone": "+1-602-555-0100",
+}
 
 # 1. Cosmetic differences must count as CONSISTENT.
-cosmetic = {"name": "Beibei Amigos",  # alias
-            "address": "751 East Union Hills Drive, Phoenix, Arizona 85024",
-            "phone": "(602) 996-4990"}
+cosmetic = {"name": "Test Academy",  # alias
+            "address": "100 East Test Drive, Phoenix, Arizona 85000",
+            "phone": "(602) 555-0100"}
 cmp = ca.compare_nap(canonical, cosmetic)
 assert cmp["consistent"], f"cosmetic variant wrongly flagged: {cmp['mismatches']}"
 
@@ -30,7 +37,7 @@ observed = {
     "yellowpages": dict(cosmetic, phone="602-111-2222"),
     "bing_places": {"absent": True, "checked": "2026-07-18"},
 }
-result = ca.audit("beibei", observed)
+result = ca.audit(canonical, observed)
 s = result["summary"]
 assert s["citations_count"] == 2, s
 assert s["consistent_count"] == 1, s
@@ -46,14 +53,14 @@ assert "For Catena to create/claim" in md and "bing_places" in md
 
 # 6. All-good scenario → green.
 all_good = {d: dict(cosmetic) for d in ca.EXPECTED_DIRECTORIES}
-assert ca.audit("beibei", all_good)["summary"]["segment"] == "green"
+assert ca.audit(canonical, all_good)["summary"]["segment"] == "green"
 
 # 7. "United States" suffix is cosmetic, not a mismatch.
-us_addr = dict(cosmetic, address="751 E Union Hills Dr, Phoenix, AZ, United States, 85024")
+us_addr = dict(cosmetic, address="100 E Test Dr, Phoenix, AZ, United States, 85000")
 assert ca.compare_nap(canonical, us_addr)["consistent"]
 
 # 8. Partial listing: blank fields skipped, non-blank still compared.
-partial_ok = {"name": "Beibei Amigos", "address": "", "phone": "", "partial": True}
+partial_ok = {"name": "Test Academy", "address": "", "phone": "", "partial": True}
 assert ca.compare_nap(canonical, partial_ok)["consistent"]
 partial_bad = dict(partial_ok, phone="602-111-2222")
 cmp = ca.compare_nap(canonical, partial_bad)
@@ -63,7 +70,7 @@ assert not ca.compare_nap(canonical, dict(cosmetic, phone=""))["consistent"]
 
 # 9. Notes flow through to the report.
 noted = {"yelp": dict(cosmetic, note="duplicate page also exists")}
-md = ca.render_markdown(ca.audit("beibei", noted))
+md = ca.render_markdown(ca.audit(canonical, noted))
 assert "duplicate page also exists" in md
 
 print("OFFLINE CITATIONS TEST OK — cosmetic-tolerant, mismatch-strict, "

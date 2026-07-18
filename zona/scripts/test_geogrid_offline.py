@@ -12,8 +12,16 @@ from pathlib import Path
 
 import geogrid_tracker as gt
 
-SCHOOL = gt.SCHOOLS["beibei"]
-FAKE_PLACE_ID = "fake-beibei-place-id"
+# Synthetic fixture — no real client data. The repo is client-agnostic; real
+# school configs live in gitignored zona/clients/<slug>.config.yml.
+SCHOOL = {
+    "name": "Test Academy",
+    "aliases": ["test academy"],
+    "lat": 33.5000,
+    "lng": -112.0000,
+    "address": "100 Test St, Phoenix AZ 85000",
+}
+FAKE_PLACE_ID = "fake-test-place-id"
 
 
 def fake_get_json(url, params):
@@ -54,7 +62,7 @@ def main():
         "corner should rank worse than center"
 
     md = gt.findings_text(SCHOOL, "preschool near me", points, 7)
-    assert "Beibei" in md and "top 3" in md and "```" in md
+    assert "Test Academy" in md and "top 3" in md and "```" in md
 
     with tempfile.TemporaryDirectory() as td:
         out = Path(td) / "test.json"
