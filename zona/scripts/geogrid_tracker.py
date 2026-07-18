@@ -174,6 +174,20 @@ def rank_label(rank):
     return str(rank)
 
 
+def provenance_note(provider):
+    """A source + confidence banner for the human-readable reports, so nobody
+    over-trusts preview-grade scraped ranks (Decision Card #4)."""
+    if provider == "curl":
+        return (
+            "> **Source: free Google Maps read (preview-grade).** No API key "
+            "used. Exact per-cell ranks can wobble ±1–3 between runs, so treat "
+            "the **map-pack counts and the overall pattern** as reliable and "
+            "individual cell numbers as approximate. Re-run on the Places API "
+            "(Decision Card #3) for steady, terms-clean numbers.")
+    return ("> **Source: Google Places API.** Steady, repeatable, "
+            "terms-of-service-clean data.")
+
+
 def grid_ascii(points, grid_size):
     """Plain-text grid: rows of rank labels, school center in the middle."""
     lines = []
@@ -187,7 +201,7 @@ def grid_ascii(points, grid_size):
     return "\n".join(lines)
 
 
-def findings_text(school, keyword, points, grid_size):
+def findings_text(school, keyword, points, grid_size, provider="places"):
     ranked = [p["rank"] for p in points if p.get("rank") is not None]
     total = len(points)
     in_top3 = sum(1 for r in ranked if r <= 3)
@@ -198,6 +212,8 @@ def findings_text(school, keyword, points, grid_size):
     lines = [
         f"# Geo-grid rank check: {school['name']}",
         f"Keyword: \"{keyword}\" — {grid_size}x{grid_size} grid — {date.today().isoformat()}",
+        "",
+        provenance_note(provider),
         "",
         "## What this means, in plain English",
         "",
@@ -321,7 +337,8 @@ def main():
         "points": points,
     }
     base.with_suffix(".json").write_text(json.dumps(payload, indent=2))
-    base.with_suffix(".md").write_text(findings_text(school, args.keyword, points, args.grid_size))
+    base.with_suffix(".md").write_text(
+        findings_text(school, args.keyword, points, args.grid_size, args.provider))
     print(f"Saved: {base}.json / .md")
 
 

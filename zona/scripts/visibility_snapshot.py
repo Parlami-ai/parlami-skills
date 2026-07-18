@@ -28,12 +28,14 @@ import geogrid_tracker as gt
 DEFAULT_KEYWORDS = ["preschool near me"]
 
 
-def snapshot_findings(school, results, grid_size):
+def snapshot_findings(school, results, grid_size, provider="places"):
     total = grid_size ** 2
     lines = [
         f"# Local visibility snapshot: {school['name']}",
         f"Date: {date.today().isoformat()} — {grid_size}x{grid_size} grid, "
         f"{len(results)} keywords",
+        "",
+        gt.provenance_note(provider),
         "",
         "## What this means, in plain English",
         "",
@@ -135,7 +137,7 @@ def main():
     }
     base.with_suffix(".json").write_text(json.dumps(payload, indent=2))
     base.with_suffix(".md").write_text(
-        snapshot_findings(school, results, args.grid_size))
+        snapshot_findings(school, results, args.grid_size, args.provider))
     print(f"Saved: {base}.json / .md")
 
 
