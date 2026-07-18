@@ -48,3 +48,30 @@ asked (lane check, prototype hunt, location confirmation) is answered above.
 **Capsule tally: 2/5 done (40%)** — capsule 0 complete, capsule 4 complete
 (it was "write a decision card, don't build," and the card is written).
 Next: capsule 1, the geo-grid rank tracker.
+
+---
+
+## 2026-07-18 — Capsule 1: Geo-grid rank tracker (BUILT + TESTED; live run waiting on Sean)
+
+**What I did:** Built the rank tracker (`scripts/geogrid_tracker.py`). It draws
+a 7x7 grid of map points around each school (49 spots covering ~6 miles) and
+asks Google, from each spot, "who shows up for this search?" — recording where
+the school ranks at every point. It saves a dated data file plus a plain-English
+report with a visual rank map. It is strictly read-only, never stores the API
+key in any file, and refuses to make live calls unless you pass a --confirm
+flag after seeing the cost estimate (~$1.60 list price per school per keyword,
+normally $0 thanks to Google's free tier).
+
+**Does it work?** The machinery, yes — I proved the whole pipeline with a
+stand-in for Google's answers (test file: `scripts/test_geogrid_offline.py`):
+49 points, correct ranks, correct report, all green. The live connection, not
+yet: I tested both Google keys with one cheap call each and both are blocked
+on Google's side (one project needs billing enabled, the other key doesn't
+allow the Places service). That needs one click in Sean's Google console —
+written up as **Decision Card #3**. The moment it's fixed, the first real
+scan is a single command.
+
+**Capsule tally: 2/5 fully done, capsule 1 built-but-blocked (~50%).**
+Next: capsule 2 (visibility snapshot) builds on the tracker; capsule 3
+(website local-signals check) needs no Google key at all, so it can run for
+real today.

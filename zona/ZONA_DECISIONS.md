@@ -48,3 +48,34 @@ using write credentials this build was told never to touch.
 active mission and demote page-building to a "future, gated" section.
 
 **Status:** WAITING ON SEAN. SKILL.md is untouched in the meantime.
+
+---
+
+## Decision Card #3 — Google Places API needs one click in your Google console
+
+**What this is about:** The geo-grid rank tracker is built and fully tested,
+but it can't make live calls yet. I tested both Google keys on this machine
+with one cheap call each (2026-07-18):
+
+- **Key 1 (GOOGLE_PLACES_API_KEY):** Google says its cloud project has
+  *billing not enabled*. Google requires a card on file even for free-tier
+  usage. Error: "You must enable Billing on the Google Cloud Project."
+- **Key 2 (GOOGLE_API_KEY):** Google says the key's *API restrictions* don't
+  include the Places API.
+
+**What you'd need to do (either one works):**
+1. Enable billing on Key 1's project at
+   https://console.cloud.google.com/project/_/billing/enable — OR —
+2. Add "Places API" to Key 2's allowed-APIs list in the console's
+   credentials page.
+
+**Cost reality:** Our full run (both schools, all keywords from capsules 1+2)
+is about 500 calls ≈ $16 at list price, but Google's monthly free tier
+(thousands of free Places calls) should make actual spend **$0**. Every run
+still shows its estimate and requires a --confirm flag.
+
+**Recommendation:** Option 1 (enable billing on the dedicated Places key's
+project) — it keeps Places usage on its own key.
+
+**Status:** WAITING ON SEAN. Until then, live rank scans can't run; everything
+is built and tested so the first real scan is a single command once fixed.
