@@ -12,8 +12,8 @@ Never touches parlami-ads-saas; never writes to GBP/website/citations.
 | # | Capsule | State |
 |---|---------|-------|
 | 0 | Foundation check | ✅ DONE |
-| 1 | Geo-grid rank tracker | 🟡 BUILT + offline-tested; live run blocked on Google key (card #3) |
-| 2 | Visibility snapshot | 🟡 BUILT + offline-tested; same gate |
+| 1 | Geo-grid rank tracker | ✅ DONE — run live both schools via free `--provider curl` path; `runs/*-geogrid-*.md`. Places API still preferred once card #3 clears |
+| 2 | Visibility snapshot | ✅ DONE — full 4-keyword live run both schools via `--provider curl`; `runs/*-visibility-snapshot.md` |
 | 3 | Location-page relevance check | ✅ DONE — run live both schools; evidence in `runs/*-page-signals.md` (Architetto) |
 | 4 | Citations/NAP audit | ✅ DONE — card #1 approved 2026-07-18; built + run live both schools; evidence in `runs/*-citations.md` (Catena) |
 
@@ -46,18 +46,23 @@ Google console click (agent has no session into his Google account).
 
 ## Single next step
 
-**Sean clears card #3** — enable billing on the Places key's project
-(https://console.cloud.google.com/project/_/billing/enable) or add "Places
-API" to key 2's allowed list. Then:
+**All 5 capsules are now built and run live with real saved output** (capsules
+1+2 used the free `--provider curl` path today; Places API stays preferred once
+card #3 is cleared, for steadier data). **The build loop's STOP condition is
+met.** The one remaining thing is Sean's review — two threads for him:
 
-```bash
-cd ~/parlami-skills/zona/scripts
-python3 geogrid_tracker.py --school beibei --test-call --confirm   # 1-call key check
-python3 visibility_snapshot.py --school beibei --confirm           # capsules 1+2 live, Beibei
-python3 visibility_snapshot.py --school amici  --confirm           # capsules 1+2 live, Amici
-```
-
-(~500 calls ≈ $16 list price, expected $0 under Google's monthly free tier.)
-
-After that, per the loop spec, synthesis (findings report + Bussola
-correlation) still needs Sean's evidence review before starting.
+1. **Evidence review → unblock synthesis.** Per the loop spec, the synthesis
+   phase (a combined findings report + Bussola correlation) must not start until
+   Sean reviews the evidence now sitting in `runs/`. Headline for that review:
+   **Amici is invisible for "preschool near me" at its own front door (0/49
+   map-pack) while dominating "trilingual preschool"** — a probable GBP
+   primary-category fix for Stella.
+2. **Card #3 (optional upgrade, not a blocker anymore).** Enabling billing on
+   the Places key's project lets capsules 1+2 re-run on the steadier paid path:
+   ```bash
+   cd ~/parlami-skills/zona/scripts
+   python3 geogrid_tracker.py --school beibei --test-call --confirm
+   python3 visibility_snapshot.py --school beibei --confirm
+   python3 visibility_snapshot.py --school amici  --confirm
+   ```
+   (~500 calls ≈ $16 list price, expected $0 under Google's monthly free tier.)

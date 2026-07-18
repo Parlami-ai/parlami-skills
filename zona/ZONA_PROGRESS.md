@@ -211,3 +211,44 @@ clearly: Zona is READ-ONLY, here are the four audit tools and where their
 evidence goes, and page-building is locked behind a "future phase, do not
 execute" gate. The website passwords were removed from its requirements list.
 The old version stays safe in git history if it's ever needed.
+
+---
+
+## 2026-07-18 (later) — Capsule 2 goes LIVE (full 4-keyword snapshot, both schools)
+
+**What I did:** Ran the visibility snapshot for real on both schools using the
+free no-key path — all four target search phrases across all 49 map points.
+This is the fuller companion to capsule 1's single-keyword scan.
+
+**Real results (runs/2026-07-18-*-visibility-snapshot.md) — the clear story:**
+
+- **Beibei is winning its niche.** For "Montessori preschool North Phoenix",
+  "bilingual preschool" and "trilingual preschool" it holds the map-pack top 3
+  at essentially ALL 49 points (48–49/49) — often rank 1 everywhere. Only the
+  broad, most-competitive term "preschool near me" is a fight (top 3 at 15/49),
+  which is normal for a generic phrase with big-chain competition.
+
+- **Amici has one specific, fixable problem.** It dominates "trilingual
+  preschool" (top 3 at all 49 points) and does well on "bilingual preschool
+  Ahwatukee" (35/49) — but for "**preschool near me**" it is in the map pack at
+  **0 of 49 points and visible at only 14**, and the rank map shows why: it
+  only appears on the WEST side of the grid and is completely absent (>20) across
+  the entire eastern half — *including at its own front door.* It's also weak on
+  "Montessori preschool Ahwatukee" (visible everywhere but top 3 at just 2/49).
+
+**What this points to (evidence for Stella, not action by Zona):** Amici's
+listing works fine for its distinctive words ("trilingual") but Google isn't
+associating it with the highest-volume generic search a parent actually types
+("preschool near me"). That is the classic fingerprint of a Google Business
+Profile **primary-category** mismatch — a Stella/GBP fix, recorded here as
+evidence only. Beibei doesn't share this problem, which makes the contrast
+strong evidence rather than a fluke.
+
+**Does it work?** Yes — real live data for both schools, and the finding
+cross-checks with capsule 1's independent single-keyword run.
+
+**Capsule tally: 5/5 built, ALL run live with real saved output for both
+schools (100%).** Capsules 1+2 now have a working free data path today, with
+the paid Places API still the preferred path once Card #3's one console click
+is done. **STOP point holds** — synthesis (findings report + Bussola
+correlation) still waits on Sean's evidence review per the loop spec.

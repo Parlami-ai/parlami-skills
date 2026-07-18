@@ -1,0 +1,2526 @@
+{
+  "school": "Beibei Amigos Language Preschool",
+  "school_key": "beibei",
+  "provider": "curl",
+  "place_id": null,
+  "grid_size": 7,
+  "radius_miles": 3.0,
+  "search_radius_m": 3000,
+  "generated": "2026-07-18T03:34:41.394416",
+  "keywords": {
+    "preschool near me": [
+      {
+        "row": 0,
+        "col": 0,
+        "lat": 33.618222,
+        "lng": -112.124345,
+        "rank": 18,
+        "results_returned": 18,
+        "top3": [
+          "Childrens Playhouse Preschool",
+          "Kaleidoscope Preschool",
+          "Shadow Rock Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "lat": 33.618222,
+        "lng": -112.10603,
+        "rank": 8,
+        "results_returned": 20,
+        "top3": [
+          "Whiz Kidz Preschool | Moon Valley",
+          "Moon Valley Prep",
+          "Tutor Time on East Bell Road & 7th st"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "lat": 33.618222,
+        "lng": -112.087715,
+        "rank": 9,
+        "results_returned": 20,
+        "top3": [
+          "Sunrise Preschools",
+          "Beyond Care Preschool",
+          "Whiz Kidz Preschool | Moon Valley"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "lat": 33.618222,
+        "lng": -112.0694,
+        "rank": 11,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "lat": 33.618222,
+        "lng": -112.051085,
+        "rank": 12,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "lat": 33.618222,
+        "lng": -112.03277,
+        "rank": 14,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "lat": 33.618222,
+        "lng": -112.014455,
+        "rank": 12,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Early Beginners Preschool & Daycare",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "lat": 33.632714,
+        "lng": -112.124345,
+        "rank": null,
+        "results_returned": 19,
+        "top3": [
+          "Childrens Playhouse Preschool",
+          "Heritage Montessori School",
+          "Kaleidoscope Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "lat": 33.632714,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 19,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning",
+          "Whiz Kidz Preschool | Moon Valley"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "lat": 33.632714,
+        "lng": -112.087715,
+        "rank": 3,
+        "results_returned": 19,
+        "top3": [
+          "Sunrise Preschools",
+          "Beyond Care Preschool",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "lat": 33.632714,
+        "lng": -112.0694,
+        "rank": 5,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "lat": 33.632714,
+        "lng": -112.051085,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "lat": 33.632714,
+        "lng": -112.03277,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "lat": 33.632714,
+        "lng": -112.014455,
+        "rank": 9,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Early Beginners Preschool & Daycare",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "lat": 33.647207,
+        "lng": -112.124345,
+        "rank": null,
+        "results_returned": 18,
+        "top3": [
+          "Childrens Playhouse Preschool",
+          "Heritage Montessori School",
+          "Kaleidoscope Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "lat": 33.647207,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 19,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning",
+          "Tutor Time on East Bell Road & 7th st"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "lat": 33.647207,
+        "lng": -112.087715,
+        "rank": 3,
+        "results_returned": 19,
+        "top3": [
+          "Sunrise Preschools",
+          "Beyond Care Preschool",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "lat": 33.647207,
+        "lng": -112.0694,
+        "rank": 5,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "lat": 33.647207,
+        "lng": -112.051085,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "lat": 33.647207,
+        "lng": -112.03277,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Sunrise Preschools",
+          "Beyond Care Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "lat": 33.647207,
+        "lng": -112.014455,
+        "rank": 10,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Early Beginners Preschool & Daycare",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "lat": 33.6617,
+        "lng": -112.124345,
+        "rank": 14,
+        "results_returned": 17,
+        "top3": [
+          "Heritage Montessori School",
+          "Sunrise Preschools",
+          "We Love Kids"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "lat": 33.6617,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 18,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning",
+          "Tutor Time on East Bell Road & 7th st"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "lat": 33.6617,
+        "lng": -112.087715,
+        "rank": 3,
+        "results_returned": 19,
+        "top3": [
+          "Sunrise Preschools",
+          "Beyond Care Preschool",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "lat": 33.6617,
+        "lng": -112.0694,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Little Sprout Preschool, LLC",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "lat": 33.6617,
+        "lng": -112.051085,
+        "rank": 7,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Little Sprout Preschool, LLC",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "lat": 33.6617,
+        "lng": -112.03277,
+        "rank": 7,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Little Sprout Preschool, LLC",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "lat": 33.6617,
+        "lng": -112.014455,
+        "rank": 9,
+        "results_returned": 20,
+        "top3": [
+          "Small People Preschool",
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "lat": 33.676193,
+        "lng": -112.124345,
+        "rank": 16,
+        "results_returned": 20,
+        "top3": [
+          "Heritage Montessori School",
+          "Sunrise Preschools",
+          "TLC Child Enrichment LLC"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "lat": 33.676193,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 19,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "lat": 33.676193,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 19,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning",
+          "Sunrise Preschools"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "lat": 33.676193,
+        "lng": -112.0694,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "lat": 33.676193,
+        "lng": -112.051085,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "lat": 33.676193,
+        "lng": -112.03277,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "lat": 33.676193,
+        "lng": -112.014455,
+        "rank": 4,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "Busy Bees North Phoenix Child Care Center"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "lat": 33.690686,
+        "lng": -112.124345,
+        "rank": 12,
+        "results_returned": 19,
+        "top3": [
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Angels Montessori School",
+          "Kiddie Academy of North Phoenix"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "lat": 33.690686,
+        "lng": -112.10603,
+        "rank": 4,
+        "results_returned": 20,
+        "top3": [
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Angels Montessori School",
+          "Stepping Stones Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "lat": 33.690686,
+        "lng": -112.087715,
+        "rank": 2,
+        "results_returned": 19,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Creative Beginnings Learning"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "lat": 33.690686,
+        "lng": -112.0694,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "lat": 33.690686,
+        "lng": -112.051085,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "lat": 33.690686,
+        "lng": -112.03277,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "lat": 33.690686,
+        "lng": -112.014455,
+        "rank": 4,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "Desert Ridge KinderCare"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "lat": 33.705178,
+        "lng": -112.124345,
+        "rank": 13,
+        "results_returned": 20,
+        "top3": [
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Angels Montessori School",
+          "Kiddie Academy of North Phoenix"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "lat": 33.705178,
+        "lng": -112.10603,
+        "rank": 12,
+        "results_returned": 20,
+        "top3": [
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Angels Montessori School",
+          "Stepping Stones Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "lat": 33.705178,
+        "lng": -112.087715,
+        "rank": 10,
+        "results_returned": 20,
+        "top3": [
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Sprout Preschool, LLC",
+          "Little Angels Montessori School"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "lat": 33.705178,
+        "lng": -112.0694,
+        "rank": 8,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "The Learning Experience - Phoenix-Happy Valley",
+          "Little Angels Montessori School"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "lat": 33.705178,
+        "lng": -112.051085,
+        "rank": 6,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "The Learning Experience - Phoenix-Happy Valley",
+          "James P. Lee Early Childhood Learning Center"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "lat": 33.705178,
+        "lng": -112.03277,
+        "rank": 8,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "James P. Lee Early Childhood Learning Center",
+          "Desert Ridge KinderCare"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "lat": 33.705178,
+        "lng": -112.014455,
+        "rank": 9,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "Desert Ridge KinderCare",
+          "The Quail's Nest Preschool - Desert Ridge"
+        ]
+      }
+    ],
+    "Montessori preschool North Phoenix": [
+      {
+        "row": 0,
+        "col": 0,
+        "lat": 33.618222,
+        "lng": -112.124345,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Casa del Sol Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "lat": 33.618222,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Whiz Kidz Preschool | Moon Valley"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "lat": 33.618222,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "lat": 33.618222,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "lat": 33.618222,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "lat": 33.618222,
+        "lng": -112.03277,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "One Hundred Leaves Preschool - North Campus",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "lat": 33.618222,
+        "lng": -112.014455,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "One Hundred Leaves Preschool - North Campus",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Guidepost Montessori at Paradise Valley"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "lat": 33.632714,
+        "lng": -112.124345,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "lat": 33.632714,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "lat": 33.632714,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Whiz Kidz Preschool | Moon Valley"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "lat": 33.632714,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "lat": 33.632714,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "lat": 33.632714,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "lat": 33.632714,
+        "lng": -112.014455,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "One Hundred Leaves Preschool - North Campus",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Guidepost Montessori at Paradise Valley"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "lat": 33.647207,
+        "lng": -112.124345,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "lat": 33.647207,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "lat": 33.647207,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "lat": 33.647207,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "lat": 33.647207,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "lat": 33.647207,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "lat": 33.647207,
+        "lng": -112.014455,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "One Hundred Leaves Preschool - North Campus",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Guidepost Montessori at Paradise Valley"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "lat": 33.6617,
+        "lng": -112.124345,
+        "rank": 3,
+        "results_returned": 20,
+        "top3": [
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School",
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "lat": 33.6617,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "lat": 33.6617,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "lat": 33.6617,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "lat": 33.6617,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "lat": 33.6617,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "lat": 33.6617,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "lat": 33.676193,
+        "lng": -112.124345,
+        "rank": 4,
+        "results_returned": 14,
+        "top3": [
+          "Casa del Sol Montessori School",
+          "Little Angels Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "lat": 33.676193,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "lat": 33.676193,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Little Angels Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "lat": 33.676193,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "lat": 33.676193,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "lat": 33.676193,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "lat": 33.676193,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "lat": 33.690686,
+        "lng": -112.124345,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Angels Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "lat": 33.690686,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Angels Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "lat": 33.690686,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Angels Montessori School",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "lat": 33.690686,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Angels Montessori School",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "lat": 33.690686,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "lat": 33.690686,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "lat": 33.690686,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "lat": 33.705178,
+        "lng": -112.124345,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Angels Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Heritage Montessori School"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "lat": 33.705178,
+        "lng": -112.10603,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Angels Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "lat": 33.705178,
+        "lng": -112.087715,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Angels Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "lat": 33.705178,
+        "lng": -112.0694,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Angels Montessori School",
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "lat": 33.705178,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Sprout Preschool, LLC",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "lat": 33.705178,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 20,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Sprout Preschool, LLC",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "lat": 33.705178,
+        "lng": -112.014455,
+        "rank": 2,
+        "results_returned": 20,
+        "top3": [
+          "Little Sprout Preschool, LLC",
+          "BeiBei Amigos Montessori Language Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      }
+    ],
+    "bilingual preschool North Phoenix": [
+      {
+        "row": 0,
+        "col": 0,
+        "lat": 33.618222,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 6,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "lat": 33.618222,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "lat": 33.618222,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "lat": 33.618222,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "lat": 33.618222,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "lat": 33.618222,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "lat": 33.618222,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "lat": 33.632714,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "lat": 33.632714,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "lat": 33.632714,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "lat": 33.632714,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "lat": 33.632714,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "lat": 33.632714,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 12,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "lat": 33.632714,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 13,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "lat": 33.647207,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "lat": 33.647207,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "lat": 33.647207,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "lat": 33.647207,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "lat": 33.647207,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "lat": 33.647207,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 12,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "lat": 33.647207,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "lat": 33.6617,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 6,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "lat": 33.6617,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "lat": 33.6617,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "lat": 33.6617,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "lat": 33.6617,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "lat": 33.6617,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "lat": 33.6617,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 13,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "lat": 33.676193,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "lat": 33.676193,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 6,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "lat": 33.676193,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "lat": 33.676193,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "lat": 33.676193,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "lat": 33.676193,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "lat": 33.676193,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "lat": 33.690686,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "lat": 33.690686,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 6,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "lat": 33.690686,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "lat": 33.690686,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "lat": 33.690686,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "lat": 33.690686,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "lat": 33.690686,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "lat": 33.705178,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Big Minds Spanish Immersion Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "lat": 33.705178,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Big Minds Spanish Immersion Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "lat": 33.705178,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "lat": 33.705178,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "lat": 33.705178,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "lat": 33.705178,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Little Sprout Preschool, LLC"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "lat": 33.705178,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Little Sprout Preschool, LLC",
+          "Global Minds Preschool"
+        ]
+      }
+    ],
+    "trilingual preschool": [
+      {
+        "row": 0,
+        "col": 0,
+        "lat": 33.618222,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "lat": 33.618222,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "lat": 33.618222,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "lat": 33.618222,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "lat": 33.618222,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "lat": 33.618222,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 10,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "lat": 33.618222,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 11,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "lat": 33.632714,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 7,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "lat": 33.632714,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "lat": 33.632714,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 12,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "lat": 33.632714,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 12,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "lat": 33.632714,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 13,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "lat": 33.632714,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 13,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "lat": 33.632714,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "lat": 33.647207,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "lat": 33.647207,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "lat": 33.647207,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 13,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "lat": 33.647207,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "lat": 33.647207,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "lat": 33.647207,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "One Hundred Leaves Preschool - North Campus"
+        ]
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "lat": 33.647207,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "lat": 33.6617,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "lat": 33.6617,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 9,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "lat": 33.6617,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "lat": 33.6617,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "lat": 33.6617,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 15,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "lat": 33.6617,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "lat": 33.6617,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "lat": 33.676193,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "lat": 33.676193,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 8,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Escola das meninas"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "lat": 33.676193,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "lat": 33.676193,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "lat": 33.676193,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 15,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Casa del Sol Montessori School",
+          "Global Minds Preschool"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "lat": 33.676193,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 14,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool",
+          "Global Minds Preschool",
+          "Casa del Sol Montessori School"
+        ]
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "lat": 33.676193,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "lat": 33.690686,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "lat": 33.690686,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "lat": 33.690686,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "lat": 33.690686,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "lat": 33.690686,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "lat": 33.690686,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "lat": 33.690686,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "lat": 33.705178,
+        "lng": -112.124345,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "lat": 33.705178,
+        "lng": -112.10603,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "lat": 33.705178,
+        "lng": -112.087715,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "lat": 33.705178,
+        "lng": -112.0694,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "lat": 33.705178,
+        "lng": -112.051085,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "lat": 33.705178,
+        "lng": -112.03277,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "lat": 33.705178,
+        "lng": -112.014455,
+        "rank": 1,
+        "results_returned": 1,
+        "top3": [
+          "BeiBei Amigos Montessori Language Preschool"
+        ]
+      }
+    ]
+  }
+}
