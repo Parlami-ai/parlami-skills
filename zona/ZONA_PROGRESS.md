@@ -75,3 +75,26 @@ scan is a single command.
 Next: capsule 2 (visibility snapshot) builds on the tracker; capsule 3
 (website local-signals check) needs no Google key at all, so it can run for
 real today.
+
+---
+
+## 2026-07-18 — Capsule 2: Local visibility snapshot (BUILT + TESTED; live run waiting on same key)
+
+**What I did:** Built the visibility snapshot (`scripts/visibility_snapshot.py`).
+It runs the rank check across the agreed fixed set of four search phrases per
+school — "preschool near me", "Montessori preschool [area]", "bilingual
+preschool [area]", "trilingual preschool" (area = North Phoenix for Beibei,
+Ahwatukee for Amici) — and rolls everything into one dated report: a summary
+table (how many of the 49 map points show the school in the map-pack top 3,
+how many show it at all, best and worst position) plus a visual rank map per
+phrase.
+
+**Does it work?** Yes — same proof method as capsule 1: I fed it stand-in
+Google answers and it correctly aggregated 4 phrases × 49 points into the
+summary table and rank maps. Live runs wait on the same Google-key fix
+(Decision Card #3); one command per school once that's cleared (about 197
+calls / $6.30 list price per school, normally $0 under the free tier).
+
+**Capsule tally: 2/5 fully done, capsules 1+2 built-but-blocked (~60%).**
+Next: capsule 3, the website local-signals check — no Google key needed, so
+it runs for real immediately.
