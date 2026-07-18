@@ -15,7 +15,7 @@ Capsules (from `~/loops/zona-loop.md`):
 | 0 | Foundation check | ✅ DONE — see ZONA_PROGRESS.md |
 | 1 | Geo-grid rank tracker | 🟡 BUILT + offline-tested; live run blocked on Decision Card #3 (Google key) |
 | 2 | Visibility snapshot | 🟡 BUILT + offline-tested; blocked on same card |
-| 3 | Location-page relevance check | ⬜ next up — needs no Google key, can run live |
+| 3 | Location-page relevance check | ✅ DONE — built AND run live for both schools 2026-07-18; reports in `runs/` |
 | 4 | Citations/NAP audit | ✅ gated by design — Decision Card #1 written, nothing built |
 
 ## Key facts a fresh session needs
@@ -37,10 +37,16 @@ Capsules (from `~/loops/zona-loop.md`):
 
 ## Single next step
 
-Build capsule 3: read-only crawl of both schools' websites flagging missing
-local signals (area names, map embed, LocalBusiness schema, service keywords),
-output → `zona/runs/` + findings framed as evidence for Architetto's queue.
-Then run it for real for both schools (no key needed) and commit.
+**STOP point reached (per loop spec — no synthesis without Sean's review).**
+The one thing unblocking the rest: Sean clears **Decision Card #3** (one click
+in Google Cloud Console — enable billing on the Places key's project). Then run:
 
-After capsule 3: STOP per loop spec — synthesis phase needs Sean's review.
-Sean gates pending: Decision Cards #1–#3 in ZONA_DECISIONS.md.
+```bash
+cd ~/parlami-skills/zona/scripts
+python3 geogrid_tracker.py --school beibei --test-call --confirm   # 1-call key check
+python3 visibility_snapshot.py --school beibei --confirm           # capsule 1+2 live, Beibei
+python3 visibility_snapshot.py --school amici  --confirm           # capsule 1+2 live, Amici
+```
+
+Sean gates pending: Decision Cards #1–#3 in ZONA_DECISIONS.md. Capsule 3's
+Architetto evidence (page gaps, both schools) is in `runs/2026-07-18-*-page-signals.md`.

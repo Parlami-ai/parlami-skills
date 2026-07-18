@@ -1,0 +1,1188 @@
+{
+  "school": "Amici Trilingual Montessori",
+  "school_key": "amici",
+  "generated": "2026-07-18T02:57:34.268752",
+  "pages_checked": 33,
+  "fetch_errors": [],
+  "pages": [
+    {
+      "url": "https://amicimontessori.com/",
+      "title": "Amici Trilingual Montessori Preschool | Ahwatukee",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/best-trilingual-montessori-preschool-near-west-chandler/",
+      "title": "West Chandler Trilingual Montessori Preschool | Amici",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/estrella/",
+      "title": "Estrella Trilingual Montessori \u2013 Preschool &amp; Childcare 85043",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/south-tempe/",
+      "title": "South Tempe Trilingual Montessori \u2013 Preschool &amp; Childcare 85282",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/ocotillo/",
+      "title": "Ocotillo Trilingual Montessori \u2013 Preschool &amp; Childcare 85286",
+      "areas_found": [
+        "85048",
+        "85226",
+        "85286",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/north-chandler/",
+      "title": "North Chandler Trilingual Montessori Preschool",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/ahwatukee/",
+      "title": "Ahwatukee Trilingual Montessori \u2013 Preschool &amp; Childcare 85048",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/laveen/",
+      "title": "Laveen Trilingual Montessori \u2013 Preschool &amp; Childcare Near You",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/communities/south-mountain/",
+      "title": "South Mountain Trilingual Montessori Preschool | Near Ahwatukee",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/south-phoenix/",
+      "title": "South Phoenix Trilingual Montessori Preschool | Amici Montessori",
+      "areas_found": [
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe",
+        "west chandler"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/staff-handbook/",
+      "title": "Auto Draft - Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/amicipartnerdirectory/",
+      "title": "Amici Trilingual Montessori Partner Directory | Ahwatukee AZ",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "montessori",
+        "preschool",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/thank-you/",
+      "title": "Thank You - Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "montessori",
+        "preschool",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/hola/",
+      "title": "Auto Draft - Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "montessori",
+        "preschool",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/blog/",
+      "title": "Amici Montessori Blog | Expert Insights &amp; Tips",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/calendar/",
+      "title": "Amici Montessori Calendar | Stay Updated",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "montessori",
+        "preschool",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/tour/",
+      "title": "Schedule a Tour | Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/about-us/",
+      "title": "About Amici Montessori | Exceptional Early Education Philosophy",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/communities/",
+      "title": "Communities We Serve | Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "85286",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "ocotillo",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/spanish-immersion-preschool/",
+      "title": "Spanish Immersion Preschool Phoenix | Amici Montessori",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/schedule-a-tour-today/",
+      "title": "Trilingual Montessori | Preschool &amp; Daycare in Ahwatukee",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/careers/",
+      "title": "Careers at Amici Montessori | Join Our Team",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/enroll/",
+      "title": "Pre-Enroll at Amici Montessori | Start Today | Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/contact-us/",
+      "title": "Contact Amici Trilingual Montessori",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/daycare-tuition-ahwatukee/",
+      "title": "Affordable Daycare Tuition in Ahwatukee | Infant and KinderCare",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/summercamp-for-children-ahwatukee/",
+      "title": "Ahwatukee Summer Camp | Amici Montessori",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/after-school-programs-ahwatukee/",
+      "title": "After School Ahwatukee | Amici",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/pre-kindergarten-ahwatukee/",
+      "title": "Bilingual Kindergarten in Ahwatukee | Mandarin &amp; Pre-K Programs",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/language-immersion-programs-ahwatukee/",
+      "title": "Mandarin language program ahwatukee | Amici Montessori immersion",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/infants-daycare-ahwatukee/",
+      "title": "Infant Daycare Ahwatukee | Amici Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://amicimontessori.com/toddler/",
+      "title": "Toddler Programs | Amici Montessori Education",
+      "areas_found": [
+        "85044",
+        "85048",
+        "85226",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/program/",
+      "title": "Montessori Programs | Amici Trilingual Montessori",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "estrella",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "LocalBusiness",
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://amicimontessori.com/scholarships/",
+      "title": "Scholarships at Amici Montessori | Financial Aid Options",
+      "areas_found": [
+        "85048",
+        "ahwatukee",
+        "chandler",
+        "foothills",
+        "laveen",
+        "south tempe",
+        "tempe"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish",
+        "trilingual"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    }
+  ]
+}

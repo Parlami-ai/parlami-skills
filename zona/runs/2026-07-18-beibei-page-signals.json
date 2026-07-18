@@ -1,0 +1,7859 @@
+{
+  "school": "Beibei Amigos Language Preschool",
+  "school_key": "beibei",
+  "generated": "2026-07-18T02:57:10.526503",
+  "pages_checked": 184,
+  "fetch_errors": [],
+  "pages": [
+    {
+      "url": "https://www.beibeiamigos.com/",
+      "title": "Trilingual Montessori Preschool in Phoenix | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/west-moon-valley/",
+      "title": "West Moon Valley Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/north-phoenix/",
+      "title": "North Phoenix Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/sunnyslope/",
+      "title": "Sunnyslope Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/north-mountain/",
+      "title": "North Mountain Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/north-glendale/",
+      "title": "North Glendale Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/moon-valley-south/",
+      "title": "Moon Valley South Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/north-central-phoenix/",
+      "title": "North Central Phoenix Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/desert-ridge-north/",
+      "title": "Desert Ridge Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/moon-valley-central/",
+      "title": "Moon Valley Central Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/deer-valley/",
+      "title": "Deer Valley Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/stetson-hills/",
+      "title": "Stetson Hills Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/city-north/",
+      "title": "City North Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85054",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/paradise-valley-village/",
+      "title": "Paradise Valley Village Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/cave-creek/",
+      "title": "Cave Creek Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/",
+      "title": "Spanish-books - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/books/",
+      "title": "Books - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/moon-valley/",
+      "title": "Moon Valley Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/scottsdale-kierland/",
+      "title": "Scottsdale Kierland Preschool | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/arrowhead-ranch/",
+      "title": "Arrowhead-Ranch - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/arrowhead-foothills/",
+      "title": "Arrowhead-Foothills - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/anthem/",
+      "title": "Anthem - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/shadow-mountain/",
+      "title": "Shadow-Mountain - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/faqs/",
+      "title": "FAQs - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization",
+        "LocalBusiness"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/norterra/",
+      "title": "Norterra - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/",
+      "title": "North Phoenix Preschool Service Areas | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": []
+    },
+    {
+      "url": "https://www.beibeiamigos.com/desert-ridge/",
+      "title": "Desert-Ridge - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/family-handbook/",
+      "title": "Family Handbook - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/thank-you/",
+      "title": "Thank You - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/blog/",
+      "title": "Blog - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/tour/",
+      "title": "Book a Preschool Tour | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "north phoenix"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": false,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "no phone number",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/daycare-tuition-phoenix/",
+      "title": "Daycare Tuition Phoenix | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/toddlers-daycare-phoenix/",
+      "title": "Top Toddler Daycare in Phoenix, AZ | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/summer-camp/",
+      "title": "Summer Camp - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/programs/",
+      "title": "Preschool Programs | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/parents-guide/",
+      "title": "Parent&#039;s Guide - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/montessori-school-phoenix/",
+      "title": "Top Montessori Schools in Phoenix, AZ | Bilingual Education",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "EducationalOrganization",
+        "Preschool",
+        "ChildCare"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/enroll/",
+      "title": "Enroll - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/contact/",
+      "title": "Contact Beibei Amigos Preschool",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [
+        "Preschool"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/about/",
+      "title": "About Beibei Amigos Preschool",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": true,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/preschool-phoenix/",
+      "title": "Top Preschool in Phoenix | Immersion Programs Available",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/careers/",
+      "title": "Careers at Beibei Amigos - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-guitarra/",
+      "title": "\ud83c\udfb8 La Guitarra \u2014 The Guitar - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-tambor/",
+      "title": "\ud83e\udd41 El Tambor \u2014 The Drum - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-clima/",
+      "title": "\ud83d\udcda El Clima es Divertido - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-reino-submarino/",
+      "title": "\ud83d\udcda El Reino Submarino - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-viaje-espacial/",
+      "title": "\ud83d\udcda Mis Amigos los Veh\u00edculos - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-parque-de-juegos/",
+      "title": "\ud83d\udcda La Magia de los Libros - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-abejas-y-el-jardin/",
+      "title": "\ud83d\udcda Los Colores del Arco\u00edris - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-instrumentos-musicales/",
+      "title": "\ud83d\udcda Los Instrumentos Musicales - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-granja-y-sus-animales/",
+      "title": "\ud83d\udcda La Granja y Sus Animales - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-sentidos/",
+      "title": "\ud83d\udcda Los Cinco Sentidos - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-ciclo-del-agua/",
+      "title": "\ud83d\udcda El Ciclo del Agua - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-primavera-y-las-flores/",
+      "title": "\ud83d\udcda La Primavera y las Flores - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-dia-y-la-noche/",
+      "title": "\ud83d\udcda El D\u00eda y la Noche - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-amigos-de-la-comunidad/",
+      "title": "\ud83d\udcda El Mundo de los Dinosaurios - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-formas-geometricas/",
+      "title": "\ud83d\udd37 Las Formas M\u00e1gicas \u2014 The Magic Shapes - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-maravillas-del-mar/",
+      "title": "\ud83d\udc19 Las Maravillas del Mar \u2014 The Wonders of the Sea - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-viaje-de-los-pajaros/",
+      "title": "\ud83c\udf3f El viaje de los p\u00e1jaros \u2014 The Birds&#039; Journey - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-insectos/",
+      "title": "\ud83d\udcda Los Insectos Amistosos - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/communities/paradise-valley-village-85032/",
+      "title": "Preschool Near Paradise Valley 85032 | Beibei",
+      "areas_found": [
+        "85024",
+        "85254",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": true,
+      "missing_signals": [
+        "no embedded Google map",
+        "no LocalBusiness/School structured data"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-deportes/",
+      "title": "\ud83d\udcda La Biblioteca Magica - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-profesiones/",
+      "title": "\ud83d\udcda El Bosque M\u00e1gico de Sof\u00eda - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/mandarin-immersion-preschool-phoenix/",
+      "title": "Mandarin Immersion Preschool Phoenix | Beibei Amigos",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "no LocalBusiness/School structured data",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-salon-de-clase/",
+      "title": "\ud83d\udcda El Sal\u00f3n de Clase \u2014 The Classroom - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-frutas/",
+      "title": "\ud83d\udcda Mis Frutas Favoritas \u2014 My Favorite Fruits - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-musica/",
+      "title": "\ud83d\udcda La M\u00fasica y los Instrumentos \u2014 Music and Instruments - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-estaciones/",
+      "title": "\ud83d\udcda Las Estaciones \u2014 The Seasons - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-jardin/",
+      "title": "\ud83d\udcda El Jard\u00edn M\u00e1gico \u2014 The Magical Garden - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-vehiculos/",
+      "title": "\ud83d\udcda Los Veh\u00edculos de Mi Ciudad \u2014 The Vehicles of My City - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-animales-del-zoologico/",
+      "title": "\ud83d\udc3e Los Animales del Zool\u00f3gico \u2014 Zoo Animals - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-numeros/",
+      "title": "\ud83d\udd22 Los N\u00fameros - Contando en el Parque \u2014 The Numbers - Counting at the Park - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-emociones/",
+      "title": "\ud83d\udcda Las Emociones - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-colores/",
+      "title": "\ud83c\udfa8 Los Colores del Mundo \u2014 The Colors of the World - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-ropa/",
+      "title": "\ud83d\udcda La Ropa de Sof\u00eda \u2014 Sofia&#039;s Clothes - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-orquesta/",
+      "title": "\ud83d\udcda La Orquesta de los Animales \u2014 The Animal Orchestra - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-partes-del-cuerpo/",
+      "title": "\ud83d\udcda Mi Cuerpo Maravilloso \u2014 My Wonderful Body - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-granja/",
+      "title": "\ud83d\udcda La Granja de Don Pedro \u2014 Don Pedro&#039;s Farm - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-viaje-de-pepito/",
+      "title": "\ud83d\udcda El Viaje de Pepito \u2014 Pepito&#039;s Journey - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-cocina-de-abuela/",
+      "title": "\ud83c\udf73 La Cocina de Abuela \u2014 Grandma&#039;s Kitchen - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-cuerpo/",
+      "title": "\ud83e\uddcd El Cuerpo \u2014 The Body - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-orejas/",
+      "title": "\ud83d\udc42 Las Orejas \u2014 The Ears - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-corazon/",
+      "title": "\u2764\ufe0f El Coraz\u00f3n \u2014 The Heart - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-boca/",
+      "title": "\ud83d\udc44 La Boca \u2014 The Mouth - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-nariz/",
+      "title": "\ud83d\udc43 La Nariz \u2014 The Nose - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-pies/",
+      "title": "\ud83e\uddb6 Los Pies \u2014 The Feet - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-ojos/",
+      "title": "\ud83d\udc40 Los Ojos \u2014 The Eyes - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/contar/",
+      "title": "\ud83d\udd22 Contar \u2014 Counting - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-manos/",
+      "title": "\ud83d\udd90\ufe0f Las Manos \u2014 The Hands - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-letras/",
+      "title": "\ud83d\udd24 Las Letras \u2014 The Letters - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-abecedario/",
+      "title": "\ud83c\udd70\ufe0f El Abecedario \u2014 The Alphabet - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-cuatro/",
+      "title": "4\ufe0f\u20e3 El Cuatro \u2014 The Number Four - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-cinco/",
+      "title": "5\ufe0f\u20e3 El Cinco \u2014 The Number Five - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-dos/",
+      "title": "2\ufe0f\u20e3 El Dos \u2014 The Number Two - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-tres/",
+      "title": "3\ufe0f\u20e3 El Tres \u2014 The Number Three - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-volcan/",
+      "title": "\ud83c\udf0b El Volc\u00e1n \u2014 The Volcano - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-uno/",
+      "title": "1\ufe0f\u20e3 El Uno \u2014 The Number One - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-desierto/",
+      "title": "\ud83c\udfdc\ufe0f El Desierto \u2014 The Desert - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-cascada/",
+      "title": "\ud83d\udca7 La Cascada \u2014 The Waterfall - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-montana/",
+      "title": "\ud83c\udfd4\ufe0f La Monta\u00f1a \u2014 The Mountain - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-bosque/",
+      "title": "\ud83c\udf32 El Bosque \u2014 The Forest - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-luna/",
+      "title": "\ud83c\udf19 La Luna \u2014 The Moon - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-estrellas/",
+      "title": "\u2b50 Las Estrellas \u2014 The Stars - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/juntos/",
+      "title": "\ud83e\udd17 Juntos \u2014 Together - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-sol/",
+      "title": "\u2600\ufe0f El Sol \u2014 The Sun - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/reir/",
+      "title": "\ud83d\ude04 Re\u00edr \u2014 Laughing - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/perdonar/",
+      "title": "\ud83d\udc95 Perdonar \u2014 Forgiving - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/ayudar/",
+      "title": "\ud83d\ude4f Ayudar \u2014 Helping - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/escuchar/",
+      "title": "\ud83d\udc42 Escuchar \u2014 Listening - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/jugamos/",
+      "title": "\ud83c\udfae Jugamos \u2014 We Play - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/compartir/",
+      "title": "\ud83e\udd1d Compartir \u2014 Sharing - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-familia/",
+      "title": "\ud83d\udcda La Familia de Sof\u00eda \u2014 Sofia&#039;s Family - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/mi-amigo/",
+      "title": "\ud83d\udc6b Mi Amigo \u2014 My Friend - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-abuelo/",
+      "title": "\ud83d\udc74 El Abuelo \u2014 Grandfather - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-bebe/",
+      "title": "\ud83d\udc76 El Beb\u00e9 \u2014 The Baby - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-hermano/",
+      "title": "\ud83d\udc66 El Hermano \u2014 Brother - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-abuela/",
+      "title": "\ud83d\udc75 La Abuela \u2014 Grandmother - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-papa/",
+      "title": "\ud83d\udc68 El Pap\u00e1 \u2014 Dad - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-hermana/",
+      "title": "\ud83d\udc67 La Hermana \u2014 Sister - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-mama/",
+      "title": "\ud83d\udc69 La Mam\u00e1 \u2014 Mom - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-triangulo/",
+      "title": "\ud83d\udd3a El Tri\u00e1ngulo \u2014 The Triangle - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-arcoiris/",
+      "title": "\ud83c\udf08 El Arco\u00edris \u2014 The Rainbow - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-circulo/",
+      "title": "\u2b55 El C\u00edrculo \u2014 The Circle - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-cuadrado/",
+      "title": "\ud83d\udfe6 El Cuadrado \u2014 The Square - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-amarillo/",
+      "title": "\ud83d\udfe1 El Amarillo \u2014 The Color Yellow - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-verde/",
+      "title": "\ud83d\udfe2 El Verde \u2014 The Color Green - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-rojo/",
+      "title": "\ud83d\udd34 El Rojo \u2014 The Color Red - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-azul/",
+      "title": "\ud83d\udd35 El Azul \u2014 The Color Blue - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-vapor/",
+      "title": "\ud83d\udca8 El Vapor \u2014 The Steam - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-oceano-agua/",
+      "title": "\ud83c\udf0a El Oc\u00e9ano \u2014 The Ocean - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-hielo/",
+      "title": "\ud83e\uddca El Hielo \u2014 The Ice - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-nieve/",
+      "title": "\u2744\ufe0f La Nieve \u2014 The Snow - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-lago/",
+      "title": "\ud83c\udfd4\ufe0f El Lago \u2014 The Lake - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-lluvia/",
+      "title": "\ud83c\udf27\ufe0f La Lluvia \u2014 The Rain - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-rio/",
+      "title": "\ud83c\udfde\ufe0f El R\u00edo \u2014 The River - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-yogur/",
+      "title": "\ud83e\udd63 El Yogur \u2014 The Yogurt - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-gota/",
+      "title": "\ud83d\udca7 La Gota \u2014 The Drop - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-pan/",
+      "title": "\ud83c\udf5e El Pan \u2014 The Bread - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-huevo/",
+      "title": "\ud83e\udd5a El Huevo \u2014 The Egg - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-leche/",
+      "title": "\ud83e\udd5b La Leche \u2014 The Milk - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-zanahoria/",
+      "title": "\ud83e\udd55 La Zanahoria \u2014 The Carrot - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-brocoli/",
+      "title": "\ud83e\udd66 El Br\u00f3coli \u2014 The Broccoli - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-manzana/",
+      "title": "\ud83c\udf4e La Manzana \u2014 The Apple - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-platano/",
+      "title": "\ud83c\udf4c El Pl\u00e1tano \u2014 The Banana - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-hongo/",
+      "title": "\ud83c\udf44 El Hongo \u2014 The Mushroom - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-medusa/",
+      "title": "\ud83e\udebc La Medusa \u2014 The Jellyfish - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-margarita/",
+      "title": "\ud83c\udf3c La Margarita \u2014 The Daisy - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-tulipan/",
+      "title": "\ud83c\udf37 El Tulip\u00e1n \u2014 The Tulip - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-cactus/",
+      "title": "\ud83c\udf35 El Cactus \u2014 The Cactus - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-semilla/",
+      "title": "\ud83c\udf31 La Semilla \u2014 The Seed - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-girasol/",
+      "title": "\ud83c\udf3b El Girasol \u2014 The Sunflower - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-arbol/",
+      "title": "\ud83c\udf33 El \u00c1rbol \u2014 The Tree - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-estrella-de-mar/",
+      "title": "\u2b50 La Estrella de Mar \u2014 The Starfish - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-rosa/",
+      "title": "\ud83c\udf39 La Rosa \u2014 The Rose - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-ballena/",
+      "title": "\ud83d\udc0b La Ballena \u2014 The Whale - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-caballito-de-mar/",
+      "title": "\ud83e\udd91 El Caballito de Mar \u2014 The Seahorse - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-delfin/",
+      "title": "\ud83d\udc2c El Delf\u00edn \u2014 The Dolphin - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-pez-payaso/",
+      "title": "\ud83d\udc20 El Pez Payaso \u2014 The Clownfish - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-pulpo/",
+      "title": "\ud83d\udc19 El Pulpo \u2014 The Octopus - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-tortuga-marina/",
+      "title": "\ud83d\udc22 La Tortuga Marina \u2014 The Sea Turtle - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-oruga/",
+      "title": "\ud83d\udc1b La Oruga \u2014 The Caterpillar - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-escarabajo/",
+      "title": "\ud83e\udeb2 El Escarabajo \u2014 The Beetle - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-grillo/",
+      "title": "\ud83e\udd97 El Grillo \u2014 The Cricket - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-libelula/",
+      "title": "\ud83e\udeb0 La Lib\u00e9lula \u2014 The Dragonfly - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-catarina/",
+      "title": "\ud83d\udc1e La Catarina \u2014 The Ladybug - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-hormiga/",
+      "title": "\ud83d\udc1c La Hormiga \u2014 The Ant - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-mariposa/",
+      "title": "\ud83e\udd8b La Mariposa \u2014 The Butterfly - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-abeja/",
+      "title": "\ud83d\udc1d La Abeja \u2014 The Bee - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/en-la-cocina/",
+      "title": "\ud83d\udc68\u200d\ud83c\udf73 En la Cocina \u2014 In the Kitchen - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-merienda/",
+      "title": "\ud83c\udf7f La Merienda \u2014 Snack Time - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/las-bebidas/",
+      "title": "\ud83e\udd64 Las Bebidas \u2014 Drinks - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/los-postres/",
+      "title": "\ud83c\udf70 Los Postres \u2014 Desserts - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-almuerzo/",
+      "title": "\ud83e\udd6a El Almuerzo \u2014 Lunch - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-cena/",
+      "title": "\ud83c\udf5d La Cena \u2014 Dinner - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-oveja/",
+      "title": "\ud83d\udc11 La Oveja \u2014 The Sheep - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-desayuno/",
+      "title": "\ud83e\udd5e El Desayuno \u2014 Breakfast - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-pato/",
+      "title": "\ud83e\udd86 El Pato \u2014 The Duck - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-caballo/",
+      "title": "\ud83d\udc34 El Caballo \u2014 The Horse - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/la-vaca/",
+      "title": "\ud83d\udc04 La Vaca \u2014 The Cow - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-conejo/",
+      "title": "\ud83d\udc30 El Conejo \u2014 The Rabbit - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-gato/",
+      "title": "\ud83d\udc31 El Gato \u2014 The Cat - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-perro/",
+      "title": "\ud83d\udc36 El Perro \u2014 The Dog - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/frutas-y-verduras/",
+      "title": "\ud83c\udf4e Mis Frutas y Verduras \u2014 Fruits &amp; Vegetables - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    },
+    {
+      "url": "https://www.beibeiamigos.com/spanish-books/el-oso/",
+      "title": "\ud83d\udc3b El Oso \u2014 The Bear - Mandarin and Spanish Immersion",
+      "areas_found": [
+        "85024",
+        "85050",
+        "85054",
+        "85085",
+        "85254",
+        "85331",
+        "deer valley",
+        "desert ridge",
+        "moon valley",
+        "north central",
+        "north glendale",
+        "north mountain",
+        "north phoenix",
+        "paradise valley",
+        "sunnyslope"
+      ],
+      "services_found": [
+        "bilingual",
+        "daycare",
+        "immersion",
+        "language",
+        "mandarin",
+        "montessori",
+        "preschool",
+        "spanish"
+      ],
+      "has_map_embed": false,
+      "schema_types": [
+        "Preschool",
+        "ChildCare",
+        "EducationalOrganization"
+      ],
+      "has_address": true,
+      "has_phone": true,
+      "title_has_area": false,
+      "missing_signals": [
+        "no embedded Google map",
+        "page title has no area name"
+      ]
+    }
+  ]
+}

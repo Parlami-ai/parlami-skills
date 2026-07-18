@@ -98,3 +98,37 @@ calls / $6.30 list price per school, normally $0 under the free tier).
 **Capsule tally: 2/5 fully done, capsules 1+2 built-but-blocked (~60%).**
 Next: capsule 3, the website local-signals check — no Google key needed, so
 it runs for real immediately.
+
+---
+
+## 2026-07-18 — Capsule 3: Location-page signals check (BUILT + RUN FOR REAL, both schools)
+
+**What I did:** Built `scripts/page_signals_check.py` and ran it live against
+both schools' public websites (read-only — it just reads pages like a visitor
+would). For every page listed in each site's sitemap it checks: does the page
+mention neighborhoods/zip codes, embed a Google map, carry the "structured
+data" label Google reads to understand local businesses, use service keywords,
+show the address and phone, and name an area in the page title?
+
+**Real results (saved in `runs/`, dated 2026-07-18):**
+
+- **Beibei (184 pages):** only 1 page has every signal. Biggest gaps:
+  170 pages have no area name in the page title, 152 have no embedded map,
+  22 lack local-business structured data — including the homepage and the
+  tour-booking page (the tour page is also missing a phone number).
+- **Amici (33 pages):** healthier — 16 pages are fully clean. Gaps: 16 pages
+  lack an area name in the title, 9 lack structured data. One eyebrow-raiser:
+  a "staff-handbook" page titled "Auto Draft" is publicly listed on the
+  sitemap — probably shouldn't be public at all.
+
+**Where the findings go:** The reports are written as evidence for
+Architetto's queue (Architetto owns page edits; Zona never touches pages).
+Both reports say so in their header.
+
+**Does it work?** Yes — verified against the raw page code by hand (the
+"missing structured data" finding on Beibei's homepage was double-checked
+directly and is real).
+
+**Capsule tally: 3/5 fully done, capsules 1+2 built-but-blocked on Sean
+(~80%). STOP point reached** — per the loop rules, synthesis (findings
+report + Bussola correlation) waits for Sean's evidence review.
