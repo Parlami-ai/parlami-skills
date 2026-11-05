@@ -36,8 +36,8 @@ base_env = {
 }
 # default transport is the gateway on this box
 oc = b.load_config(env_path=None, environ={**base_env, "OPENCLAW_URL": "http://127.0.0.1:18789",
-                                             "OPENCLAW_TOKEN_ENV": "OPENCLAW_GATEWAY_TOKEN",
-                                             "OPENCLAW_GATEWAY_TOKEN": "t0k", "OPENCLAW_AGENT": "parlami"})
+                                             "OPENCLAW_TOKEN_ENV": "OPENCLAW_BRIDGE_TEST_TOKEN",
+                                             "OPENCLAW_BRIDGE_TEST_TOKEN": "t0k", "OPENCLAW_AGENT": "parlami"})
 assert oc["LUCIANO_TRANSPORT"] == "openclaw"
 assert b.check_config(oc) == [], b.check_config(oc)
 assert b.chat_completions_url("http://127.0.0.1:18789") == "http://127.0.0.1:18789/v1/chat/completions"
