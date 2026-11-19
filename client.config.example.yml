@@ -89,6 +89,21 @@ social:
   facebook_page_id: "{{FACEBOOK_PAGE_ID}}"
   facebook_ads_account: "{{FACEBOOK_ADS_ACCOUNT_ID}}"
 
+# ─── Meta Ads (Faccia) ────────────────────────────────────
+meta_ads:
+  school1_ad_account_id: "{{META_AD_ACCOUNT_ID_SCHOOL1}}"   # e.g. "act_1234567890"
+  school1_page_id: "{{META_PAGE_ID_SCHOOL1}}"
+  school1_ig_id: "{{META_IG_ID_SCHOOL1}}"
+  school1_pixel_id: "{{META_PIXEL_ID_SCHOOL1}}"
+  school1_geo_radius_miles: "{{META_GEO_RADIUS_MILES_SCHOOL1}}"   # e.g. 10
+  school2_ad_account_id: "{{META_AD_ACCOUNT_ID_SCHOOL2}}"   # Optional
+  school2_page_id: "{{META_PAGE_ID_SCHOOL2}}"
+  school2_ig_id: "{{META_IG_ID_SCHOOL2}}"
+  school2_pixel_id: "{{META_PIXEL_ID_SCHOOL2}}"
+  school2_geo_radius_miles: "{{META_GEO_RADIUS_MILES_SCHOOL2}}"
+  discord_channel_id: "{{DISCORD_CHANNEL_ID_FACCIA}}"       # Optional — daily report channel
+  # Page tokens are secrets: set META_PAGE_TOKEN_SCHOOL1 / META_PAGE_TOKEN_SCHOOL2 in .env, never here.
+
 # ─── Email ────────────────────────────────────────────────
 email:
   provider: "mailchimp"                      # mailchimp | klaviyo | activecampaign
