@@ -53,6 +53,7 @@ import re
 import shlex
 import subprocess
 import sys
+import tempfile
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -167,11 +168,14 @@ def log(message, **fields):
     print(f"{now_iso()} {message}{(' ' + detail) if detail else ''}")
 
 
-def run_cmd(args, stdin_text=None, env=None, timeout=600):
+def run_cmd(args, stdin_text=None, env=None, timeout=600, unset_env=()):
     """Run a command, return stdout. Raises on a non-zero exit."""
+    child_env = {**os.environ, **(env or {})}
+    for key in unset_env:
+        child_env.pop(key, None)
     proc = subprocess.run(
         args, input=stdin_text, capture_output=True, text=True,
-        env={**os.environ, **(env or {})}, timeout=timeout,
+        env=child_env, timeout=timeout,
     )
     if proc.returncode != 0:
         raise RuntimeError(f"{args[0]} exited {proc.returncode}: {proc.stderr.strip()[:500]}")
@@ -302,7 +306,22 @@ Change nothing else in the store. Do not edit files/index.html.
 def claude_headless(cfg, prompt, timeout=900):
     args = [cfg["CLAUDE_BIN"], "-p", "--output-format", "json", "--allowedTools", CLAUDE_TOOLS]
     args += shlex.split(cfg.get("CLAUDE_EXTRA_ARGS", ""))
-    out = run_cmd(args, stdin_text=prompt, timeout=timeout)
+    # Artifact connectors require the Claude account login, not API-key auth.
+    # Scope this to the child process; never change the shell or other agents.
+    auth_overrides = ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_BASE_URL",
+                      "CLAUDE_CODE_USE_BEDROCK", "CLAUDE_CODE_USE_VERTEX",
+                      "CLAUDE_CODE_USE_FOUNDRY")
+    # User settings can reintroduce API credentials after environment cleanup.
+    # Preserve all unrelated settings/hooks in a private temporary child profile.
+    user_settings = Path.home() / ".claude" / "settings.json"
+    settings = json.loads(user_settings.read_text()) if user_settings.exists() else {}
+    for key in auth_overrides:
+        settings.get("env", {}).pop(key, None)
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json") as child_settings:
+        json.dump(settings, child_settings)
+        child_settings.flush()
+        args += ["--setting-sources", "project,local", "--settings", child_settings.name]
+        out = run_cmd(args, stdin_text=prompt, unset_env=auth_overrides, timeout=timeout)
     envelope = extract_json(out)
     # `--output-format json` wraps the answer in {"result": "..."}; a plain text
     # answer (older CLI) is parsed as-is.

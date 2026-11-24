@@ -13,6 +13,19 @@ from pathlib import Path
 
 import luciano_dashboard_bridge as b
 
+# Verify actual subprocess environment, not only the wrapper's arguments.
+import os
+from unittest.mock import patch
+with patch.dict(os.environ, {"ANTHROPIC_API_KEY": "synthetic-test", "ANTHROPIC_AUTH_TOKEN": "synthetic-test"}):
+    with patch.object(b.subprocess, "run") as child:
+        child.return_value.returncode = 0
+        child.return_value.stdout = '{"result":"[]"}'
+        assert b.claude_headless({"CLAUDE_BIN": "claude"}, "read only") == []
+        child_env = child.call_args.kwargs["env"]
+        assert "ANTHROPIC_API_KEY" not in child_env
+        assert "ANTHROPIC_AUTH_TOKEN" not in child_env
+        assert os.environ["ANTHROPIC_API_KEY"] == "synthetic-test"
+
 # ---- pure helpers -----------------------------------------------------------
 
 env = b.parse_env_file('# comment\nDASHBOARD_URL="https://claude.ai/code/artifact/x"\nBUZZ_CHANNEL_ID=abc \n\nBAD LINE\n')
@@ -87,7 +100,7 @@ assert b.pick_answer(cfg, root, msgs[:2]) is None
 calls = {"claude": [], "buzz": []}
 
 
-def fake_run_cmd(args, stdin_text=None, env=None, timeout=0):
+def fake_run_cmd(args, stdin_text=None, env=None, timeout=0, unset_env=()):
     if args[0] == "claude":
         calls["claude"].append(stdin_text)
         if "ArtifactComments" in stdin_text:
